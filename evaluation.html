@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Lyric Evaluation</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="evaluation-container">
+
+        <div class="top-bar">
+
+            <span id="progress">
+                Evaluation 1 of 1
+            </span>
+
+        </div>
+
+
+        <div class="card">
+
+            <h1>
+                Evaluate the Lyrics
+            </h1>
+
+
+            <!-- CHILD PROFILE -->
+
+            <section class="profile-section">
+
+                <h2>
+                    Child Profile
+                </h2>
+
+                <div class="profile-grid">
+
+                    <div class="profile-item">
+
+                        <span class="profile-label">
+                            Age
+                        </span>
+
+                        <span id="childAge">
+                            —
+                        </span>
+
+                    </div>
+
+
+                    <div class="profile-item">
+
+                        <span class="profile-label">
+                            Interests
+                        </span>
+
+                        <span id="childInterests">
+                            —
+                        </span>
+
+                    </div>
+
+
+                    <div class="profile-item">
+
+                        <span class="profile-label">
+                            Target Words
+                        </span>
+
+                        <span id="targetWords">
+                            —
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- LYRICS -->
+
+            <section class="lyrics-section">
+
+                <h2>
+                    Generated Lyrics
+                </h2>
+
+                <div id="lyrics"
+                     class="lyrics-box">
+                </div>
+
+            </section>
+
+
+            <!-- QUESTIONS -->
+
+            <form id="evaluationForm">
+
+                <h2>
+                    Your Evaluation
+                </h2>
+
+                <p class="instruction">
+
+                    Please rate each aspect from
+                    1 (Very poor) to 5 (Excellent).
+
+                </p>
+
+
+                <!-- AGE -->
+
+                <div class="question">
+
+                    <label>
+                        1. Age appropriateness
+                    </label>
+
+                    <p class="question-help">
+                        How appropriate are the lyrics for
+                        the child's age?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="age_appropriateness"
+                                value="1"
+                                required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="age_appropriateness"
+                                value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="age_appropriateness"
+                                value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="age_appropriateness"
+                                value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="age_appropriateness"
+                                value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SIMPLICITY -->
+
+                <div class="question">
+
+                    <label>
+                        2. Linguistic simplicity
+                    </label>
+
+                    <p class="question-help">
+                        How appropriate is the language in
+                        terms of simplicity and accessibility
+                        for the child?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="linguistic_simplicity"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="linguistic_simplicity"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="linguistic_simplicity"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="linguistic_simplicity"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="linguistic_simplicity"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PERSONALISATION -->
+
+                <div class="question">
+
+                    <label>
+                        3. Personalisation
+                    </label>
+
+                    <p class="question-help">
+                        How well do the lyrics reflect the
+                        individual child and their profile?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="personalisation"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="personalisation"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="personalisation"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="personalisation"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="personalisation"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- TARGET WORDS -->
+
+                <div class="question">
+
+                    <label>
+                        4. Target-word integration
+                    </label>
+
+                    <p class="question-help">
+                        How naturally and appropriately are
+                        the target words incorporated?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="target_word_integration"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="target_word_integration"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="target_word_integration"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="target_word_integration"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="target_word_integration"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NATURALNESS -->
+
+                <div class="question">
+
+                    <label>
+                        5. Naturalness
+                    </label>
+
+                    <p class="question-help">
+                        How natural and fluent do the lyrics
+                        sound as children's song lyrics?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="naturalness"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="naturalness"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="naturalness"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="naturalness"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="naturalness"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COHERENCE -->
+
+                <div class="question">
+
+                    <label>
+                        6. Coherence
+                    </label>
+
+                    <p class="question-help">
+                        How coherent and understandable is
+                        the overall lyric?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="coherence"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="coherence"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="coherence"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="coherence"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="coherence"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CHILDREN'S SONG -->
+
+                <div class="question">
+
+                    <label>
+                        7. Children's-song suitability
+                    </label>
+
+                    <p class="question-help">
+                        How suitable are these lyrics as
+                        children's song lyrics?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="children_song_suitability"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="children_song_suitability"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="children_song_suitability"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="children_song_suitability"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="children_song_suitability"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- THERAPEUTIC -->
+
+                <div class="question">
+
+                    <label>
+                        8. Potential music-therapy usefulness
+                    </label>
+
+                    <p class="question-help">
+                        How potentially useful could these
+                        lyrics be as child-focused
+                        music-therapy material?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="therapeutic_usefulness"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="therapeutic_usefulness"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="therapeutic_usefulness"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="therapeutic_usefulness"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="therapeutic_usefulness"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OVERALL -->
+
+                <div class="question overall">
+
+                    <label>
+                        9. Overall suitability
+                    </label>
+
+                    <p class="question-help">
+                        Overall, how suitable are these lyrics
+                        as personalised children's song material
+                        for this child?
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                   name="overall_rating"
+                                   value="1"
+                                   required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="overall_rating"
+                                   value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="overall_rating"
+                                   value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="overall_rating"
+                                   value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                   name="overall_rating"
+                                   value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+
+                <!-- COMMENTS -->
+
+                <div class="question">
+
+                    <label>
+                        Additional comments
+                        <span class="optional">
+                            (optional)
+                        </span>
+                    </label>
+
+                    <textarea
+                        id="comments"
+                        name="comments"
+                        rows="5"
+                        placeholder="Please add any comments or observations that you think would be useful."></textarea>
+
+                </div>
+
+
+                <div id="submitError"
+                     class="error hidden">
+
+                    Please complete all required ratings.
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="primary-button">
+
+                    Submit & Continue
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="evaluation.js"></script>
+
+</body>
+
+</html>

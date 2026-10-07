@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Children's Lyric Evaluation</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="card">
+
+        <h1>
+            Evaluation of Personalised Children's Lyrics
+        </h1>
+
+        <p class="intro">
+            Thank you for taking part in this evaluation.
+        </p>
+
+        <p>
+            This study evaluates AI-generated personalised
+            lyrics for children's songs. The lyrics have been
+            generated using information about an anonymised
+            child's age, interests and target words.
+        </p>
+
+        <h2>What you will do</h2>
+
+        <p>
+            You will be shown a series of generated lyrics
+            together with a brief anonymised child profile.
+            For each set of lyrics, please provide your
+            professional judgement using the rating scales.
+        </p>
+
+        <h2>Rating scale</h2>
+
+        <div class="scale-box">
+
+            <p>
+                <strong>1</strong> = Very poor
+            </p>
+
+            <p>
+                <strong>2</strong> = Poor
+            </p>
+
+            <p>
+                <strong>3</strong> = Moderate
+            </p>
+
+            <p>
+                <strong>4</strong> = Good
+            </p>
+
+            <p>
+                <strong>5</strong> = Excellent
+            </p>
+
+        </div>
+
+        <p>
+            There are no right or wrong answers. Please base
+            your ratings on your professional judgement.
+        </p>
+
+        <p>
+            The order of the lyrics will be randomised.
+            Information about the model or generation method
+            will not be shown during the evaluation.
+        </p>
+
+        <h2>Estimated time</h2>
+
+        <p>
+            The evaluation is designed to be completed
+            relatively quickly. You may also leave optional
+            comments where you feel additional feedback would
+            be useful.
+        </p>
+
+        <hr>
+
+        <h2>Participant code</h2>
+
+        <p>
+            Please enter the participant code provided to you.
+            This allows your responses to be grouped without
+            requiring your name.
+        </p>
+
+        <input
+            type="text"
+            id="participantCode"
+            class="text-input"
+            placeholder="Enter your participant code"
+            maxlength="50"
+        >
+
+        <p id="codeError"
+           class="error hidden">
+
+            Please enter your participant code.
+
+        </p>
+
+        <button
+            onclick="startEvaluation()"
+            class="primary-button">
+
+            Start Evaluation
+
+        </button>
+
+    </div>
+
+</div>
+
+<script>
+
+function startEvaluation() {
+
+    const code =
+        document.getElementById(
+            "participantCode"
+        ).value.trim();
+
+    if (!code) {
+
+        document
+            .getElementById("codeError")
+            .classList.remove("hidden");
+
+        return;
+    }
+
+    localStorage.setItem(
+        "participantCode",
+        code
+    );
+
+    window.location.href =
+        "evaluation.html";
+}
+
+</script>
+
+</body>
+
+</html>
