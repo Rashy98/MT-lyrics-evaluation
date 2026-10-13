@@ -1,0 +1,1738 @@
+[
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "Verse 1:\nIn the morning, when the sun rises bright,\nLittle birds singing, it's time to take flight.\nWake up, wake up, the day's just begun,\nLet's play and laugh, it's fun, it's fun!\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nVerse 2:\nUnder the tree, we'll share our tales,\nOf magic and mystery, of heroes and sales.\nBuilding castles, digging deep holes,\nEvery moment, we're learning, we're growing, we're whole.\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nVerse 3:\nEven if it's raining, with mud on our shoes,\nNo matter what happens, we'll laugh and we'll do.\nEvery friend, every laugh, every hug,\nIn this world, we find, the things we will always value, no matter what.\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nOutro:\nSo grab your toys, and your friends, and your smile,\nAdventure awaits, it's always worthwhile.\nTogether we're strong, together we're free,\nIn every moment, let's be happy, let's be happy!"
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "Verse 1:\nIn the garden where the flowers bloom,\nUnder the sky so bright and room,\nThere's a little bird, so small and true,\nSinging songs, happy and new.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nVerse 2:\nIn the meadow where the grass is green,\nBeside a stream, so cool and clean,\nThere's a butterfly, so light and keen,\nDancing with the wind, so serene.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nBridge:\nWith every flower, every leaf,\nAnd every leaf, every beam of light,\nWe find joy, we find delight,\nIn the garden, we're always bright.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nOutro:\nSo here's to you, to every day,\nIn the garden, we'll always play.\nSing along, let your voice be heard,\nIn the garden, we're always near."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "Sure, here are some simple and engaging lyrics for a song that a child who loves dogs and flowers might enjoy:\n\n**Title: \"Furry Paws and Flower Crowns\"**\n\n(Verse 1)\nIn the garden where the flowers bloom,\nAnd the bees make sweet hum,\nLook out, there’s a wagging tail,\nA doggy friend, come play with all!\n\n(Chorus)\nFurry paws and flower crowns,\nOn the grass, we dance and run.\nFurry paws and flower crowns,\nSo much fun, let’s have some fun!\n\n(Verse 2)\nDaisy and Daisy, so pretty and bright,\nWith petals that sparkle in the light.\nPolly and Bingo, those furry friends,\nJoin us, let’s play in the green fields!\n\n(Bridge)\nIn the morning, under the sun,\nWith a tail and a wag, so much fun!\nIn the evening, when the light turns to gold,\nWith a gentle pat, it’s just as cool!\n\n(Chorus)\nFurry paws and flower crowns,\nOn the grass, we dance and run.\nFurry paws and flower crowns,\nSo much fun, let’s have some fun!\n\n(Outro)\nSo here’s to the dogs and the flowers,\nTo the joy that they bring, let’s share.\nFurry paws and flower crowns,\nWe’ll keep them forever, in our hearts!\n\nFeel free to adjust the verses or chorus to better fit the child's interests or the melody of the song!"
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers bloom,\nWhere the sun shines and the bees hum,\nLook at the puppies, so sweet and cute,\nRunning around, so full of fun and cute!\n\n(Chorus)\nOh, dogs and flowers, what a sight,\nIn this garden, we’ll have so much delight,\nJumping over the green leaves and grass,\nIn this world, we find our happiness, we pass.\n\n(Verse 2)\nDogs with big floppy ears so soft,\nFlowers with petals, all in a lot,\nTogether we play, in the fresh air,\nUnder the sky, so bright and clear!\n\n(Chorus)\nOh, dogs and flowers, what a sight,\nIn this garden, we’ll have so much delight,\nDancing with the breeze, and the bees,\nIn this world, we find our happiness, we seize.\n\n(Bridge)\nWhen the sun sets and the sky turns red,\nWe’ll watch the dogs, with their wagging heads,\nAnd when the flowers close their sweet eyes,\nWe’ll go home, with happy smiles and sighs.\n\n(Chorus)\nOh, dogs and flowers, what a sight,\nIn this garden, we’ll have so much delight,\nIn this world, we find our happiness, in this light.\n\n(Outro)\nSo here’s to the dogs, with their tails up high,\nAnd to the flowers, in their colorful sky,\nTogether they bring us joy and fun,\nIn this world, we find our happiness, in this run!"
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers bloom,\nDogs wag their tails, they're not afraid to come.\nAnnnie brought her little dog today,\nWith a tail that's always in the fray.\n\n(Chorus)\nThe sun shines bright on this happy day,\nA perfect anniversary, a reason to play.\nWe were here, we were there,\nTogether we chase the little bear.\n\n(Verse 2)\nIn the park, we found a special place,\nWhere the trees reach up to the clouds and embrace.\nOur dog, so happy, so free,\nRunning in circles, he knows no decree.\n\n(Chorus)\nThe flowers dance, the breeze blows by,\nIn this world of joy, we let our spirits fly.\nWe were laughing, we were smiling,\nWith each other, our love is a feeling.\n\n(Bridge)\nAnniversary, let's make it grand,\nWith dogs and flowers, hand in hand.\nTogether we'll always be,\nThrough rain and shine, that's our destiny.\n\n(Chorus)\nThe day comes to an end, but our love will not fade,\nWith every laugh, our bond is made.\nWe were together, we were side by side,\nWith the dogs and flowers, our hearts will abide.\n\n(Outro)\nSo here's to us, to the dogs, and to the flowers too,\nOn this special day, we have so much to do.\nAnnnie and her dog, we were a team,\nWith each other, our love is pure and true."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers be,\nAnd the dogs wag their tails so free,\nEvery day is a joy to see,\nIn this place where we spend our time.\n\n(Chorus)\nOh, the dogs and the flowers, oh so fine,\nAn anniversary, a memory divine,\nWe were happy, just you and I,\nIn the sun, in the sky.\n\n(Verse 2)\nDogs running, flowers blooming,\nAn anniversary, our special day coming,\nBeaming smiles, a perfect scene,\nWith the world at our feet, it’s a dream.\n\n(Chorus)\nOh, the dogs and the flowers, oh so fine,\nAn anniversary, a memory divine,\nWe were happy, just you and I,\nIn the sun, in the sky.\n\n(Bridge)\nAn anniversary, a time to shine,\nRemember the joy that we align,\nWith the dogs and the flowers around,\nEvery moment is a brand new found.\n\n(Chorus)\nOh, the dogs and the flowers, oh so fine,\nAn anniversary, a memory divine,\nWe were happy, just you and I,\nIn the sun, in the sky.\n\n(Outro)\nSo here’s to the dogs and the flowers,\nAnd the memories we’ll forever recall,\nAn anniversary, a day so rare,\nBe happy, we’ll always share."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers be,\nDancing with the bees so free.\nAn anniversary we'll celebrate,\nUnder the sky, with love, we'll meet.\n\n(Chorus)\nDogs and flowers, our happy days,\nTogether we be, in every ways.\nWith a wag and with a smile,\nOur friendship, it's a wonderful style.\n\n(Verse 2)\nThe sun shines bright, in the morning light,\nPaws in the dirt, a playful sight.\nWere friends since the very first day,\nWith joy and laughter, we'll always play.\n\n(Chorus)\nDogs and flowers, our happy days,\nTogether we be, in every ways.\nWith a wag and with a smile,\nOur friendship, it's a wonderful style.\n\n(Bridge)\nAn old dog, and a little seed,\nGrowing together, our love will be led.\nWith every step, with every turn,\nThrough the garden, in the summer's burn.\n\n(Verse 3)\nWhen the rain falls, it gently falls,\nOver the earth, it softly calls.\nIn the shade, under the trees,\nSharing stories, we'll never cease.\n\n(Chorus)\nDogs and flowers, our happy days,\nTogether we be, in every ways.\nWith a wag and with a smile,\nOur friendship, it's a wonderful style.\n\n(Outro)\nSo here's to you, my furry friend,\nAnd all the beauty, in this world, so splendid.\nWith the flowers, and the dogs as well,\nOur bond will last, through the seasons, it will tell."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers be,\nA little dog was wagging his tail.\nHe loved to chase the bees so free,\nAnd play with the flowers in the pale.\n\n(Chorus)\nDogs and flowers, we're a happy pair,\nTogether we celebrate every day.\nThe anniversary of our first day,\nWas a special day for we all.\n\n(Verse 2)\nEvery day we play in the sun,\nRunning around, having fun.\nWith an in our hearts, we run and dance,\nIn the fields of the green and the green.\n\n(Chorus)\nDogs and flowers, we're a happy pair,\nTogether we celebrate every day.\nThe anniversary of our first day,\nWas a special day for we all.\n\n(Bridge)\nWe were best friends from the very start,\nThrough the rain and the warm sun part.\nTogether we were always there,\nNo matter what, we’d never despair.\n\n(Chorus)\nDogs and flowers, we're a happy pair,\nTogether we celebrate every day.\nThe anniversary of our first day,\nWas a special day for we all.\n\n(Outro)\nSo here’s to us, in this beautiful scene,\nWith the dogs and the flowers, we’re in a dream.\nHappy anniversary, our day so dear,\nIn the garden, we're forever.\n\nThis children's song about dogs and flowers includes the required words and captures the interests of the child, while keeping the lyrics simple and suitable for a young audience."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nRequired words:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers be,\nDogs and I, we play and we smile.\nWith wagging tails and joyful hearts,\nWe enjoy the day, without a fright.\n\n(Chorus)\nOn this special anniversary,\nDogs and flowers, we can't get enough of you.\nBe here with us, be our friends,\nAn anniversary we celebrate anew.\n\n(Verse 2)\nThe flowers sway in the gentle breeze,\nWith dogs by my side, I feel at ease.\nAn old friend, a new face,\nIn this garden, we find our place.\n\n(Chorus)\nOn this special anniversary,\nDogs and flowers, we can't get enough of you.\nBe here with us, be our friends,\nAn anniversary we celebrate anew.\n\n(Bridge)\nWere we ever to say goodbye,\nWe'd feel a sadness, we'd cry and sigh.\nBut here we are, together still,\nThrough the seasons, as the days go by.\n\n(Chorus)\nOn this special anniversary,\nDogs and flowers, we can't get enough of you.\nBe here with us, be our friends,\nAn anniversary we celebrate anew."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nRequired words:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "(Verse 1)\nIn the garden where the flowers be,\nA little dog was wagging his tail.\nEvery day he runs and he skips,\nTo the place where the pretty flowers thrive.\n\n(Chorus)\nAn anniversary, a special day,\nWith a dog and flowers, we will play.\nLet’s celebrate, let’s sing and dance,\nWith the flowers, and our furry friend’s chance.\n\n(Verse 2)\nOn this day, the flowers were so bright,\nIn the sun, they danced with the light.\nThe doggy friends were full of cheer,\nIn the garden, their joy did appear.\n\n(Chorus)\nAn anniversary, a wonderful time,\nWith a dog and flowers, our hearts will shine.\nLet’s celebrate, let’s sing and dance,\nWith the flowers, and our furry friend’s chance.\n\n(Bridge)\nTogether, we can be so free,\nIn this garden, where we love to be.\nThe flowers and the dog are here,\nMaking memories that last forever.\n\n(Chorus)\nAn anniversary, a day to share,\nWith a dog and flowers, we’ll always care.\nLet’s celebrate, let’s sing and dance,\nWith the flowers, and our furry friend’s chance."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "Verse 1:\nIn the morning, when the sun rises bright,\nLittle birds singing, it's time to take flight.\nWake up, wake up, the day's just begun,\nLet's play and laugh, it's fun, it's fun!\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nVerse 2:\nUnder the tree, we'll share our tales,\nOf magic and mystery, of heroes and sales.\nBuilding castles, digging deep holes,\nEvery moment, we're learning, we're growing, we're whole.\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nVerse 3:\nEven if it's raining, with hearts full of cheer,\nTogether we'll dance, in the rain, no fear.\nLaughing and skipping, through puddles and spray,\nLife's a journey, let's travel it day by day.\n\nChorus:\nLet's go, let's go, on an adventure grand,\nWith friends we make, in the land of sand.\nColors of the rainbow, shapes in the sky,\nEvery day, with joy, we'll see it through!\n\nOutro:\nSo here's to the morning, the day's just begun,\nWith smiles and laughter, we'll make it one.\nHand in hand, we'll explore, we'll discover,\nThrough every season, let's live our story."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "Verse 1:\nIn the garden where the flowers bloom,\nUnder the sky so bright and room,\nThere's a little bird, so small and true,\nSinging songs, happy and new.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nVerse 2:\nIn the meadow where the grass is green,\nBeside a stream, so cool and clean,\nThere's a butterfly, so light and keen,\nDancing with the wind, so serene.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nBridge:\nWith every flower, every leaf,\nAnd every leaf, every beam of light,\nWe find joy, we find delight,\nIn the garden, we're always bright.\n\nChorus:\nFly, little bird, fly high and free,\nIn the sky, in the blue, in the tree.\nSing your song, let it fill the air,\nIn the garden, we're always there.\n\nOutro:\nSo here's to you, to every day,\nIn the garden, we'll always play.\nSing along, let your voice be heard,\nIn the garden, we're always near."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "**Title: Magic in the Fairy Tale Land**\n\n**Verse 1:**  \nIn a land far, far away,  \nWhere the stories come alive,  \nFairy tales and magic play,  \nIn a world where dreams take flight.\n\n**Chorus:**  \nMagic in the fairy tale land,  \nWaves in the air, so grand,  \nWish upon a star, close your eyes,  \nIn the fairy tale land, we’ll have some fun, my friend!\n\n**Verse 2:**  \nA castle stands tall and bright,  \nGuarded by a friendly knight,  \nPrincesses with golden light,  \nWearing crowns and shining bright.\n\n**Chorus:**  \nMagic in the fairy tale land,  \nWaves in the air, so grand,  \nWish upon a star, close your eyes,  \nIn the fairy tale land, we’ll have some fun, my friend!\n\n**Bridge:**  \nDragons roar and castles glow,  \nEnchanted forests softly flow,  \nEvery story tells a new tale,  \nIn the fairy tale land, let’s play!\n\n**Chorus:**  \nMagic in the fairy tale land,  \nWaves in the air, so grand,  \nWish upon a star, close your eyes,  \nIn the fairy tale land, we’ll have some fun, my friend!\n\n**Outro:**  \nSo come and join the magic show,  \nIn this world of wonder and glow,  \nIn the fairy tale land, we’ll go,  \nAnd make memories that last a lifetime, my dear!"
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "**Title: A Magical Tale of a Princess**\n\n**Verse 1:**\nIn a land far, far away,\nWhere the sun always shone,\nLived a princess in a castle high,\nWith a heart as sweet as honey.\n\n**Chorus:**\nOh, come with me, my little friend,\nTo a world of magic and dreams,\nWhere you’ll meet a fairy queen,\nAnd all the wonders of her theme.\n\n**Verse 2:**\nShe’ll teach you to dance like a swan,\nAnd sing songs of joy and light,\nWith a wand that glows at her command,\nYou’ll make your dreams come true, my dear delight.\n\n**Chorus:**\nOh, come with me, my little friend,\nTo a world of magic and dreams,\nWhere you’ll meet a fairy queen,\nAnd all the wonders of her themes.\n\n**Verse 3:**\nThrough enchanted forests and over the seas,\nWith the help of a friendly knight,\nYou’ll find treasures old and new,\nAnd stories to make your heart skip a beat.\n\n**Chorus:**\nOh, come with me, my little friend,\nTo a world of magic and dreams,\nWhere you’ll meet a fairy queen,\nAnd all the wonders of her themes.\n\n**Verse 4:**\nIn the end, you’ll learn the truth,\nThat in every fairy tale,\nThere’s a lesson to teach and trust,\nIn the magic that lies in all.\n\n**Outro:**\nSo close your eyes, take a deep breath,\nAnd let the magic take you away,\nFor in this land, you’ll never feel,\nBut the warmth and joy of a magical day."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn a land far, far away,\nWhere stories come to play,\nA little girl and her wand,\nDanced in fields, no need to stand.\n\n(Chorus)\nIn that magical land, and in her heart,\nFrom the fairy tales, she took a start.\nWith her magic and her might,\nShe traveled to the farthest light.\n\n(Verse 2)\nDuring the night, but with a smile,\nShe stepped through a portal, a shimmering style.\nIn a castle high, but not alone,\nShe met her friends, her true throne.\n\n(Chorus)\nIn that magical land, and in her heart,\nFrom the fairy tales, she took a start.\nWith her magic and her might,\nShe traveled to the farthest light.\n\n(Bridge)\nThrough caves and fields, but always free,\nWith her friends by her side, she could be.\nHer heart so full, but she was brave,\nFrom the start, she had the love to save.\n\n(Verse 3)\nWith magic in her hand, but not afraid,\nShe faced the shadows, with a steady aid.\nWith every step, but every dream,\nShe traveled through, and felt it gleam.\n\n(Chorus)\nIn that magical land, and in her heart,\nFrom the fairy tales, she took a start.\nWith her magic and her might,\nShe traveled to the farthest light.\n\n(Outro)\nBack to the world, but with a kiss,\nHer adventure’s over, her heart’s the bliss.\nIn that magical land, and in her heart,\nFrom the fairy tales, she took a start."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn a land far, far away, under the moon's soft glow,\nA little girl with dreams to grow, a fairy tale in tow.\nShe journeyed to a castle grand, with her magic wand in hand,\nBut found it locked, the door did stand, and her heart did understand.\n\n(Chorus)\nAnd through the doors that close, she'll find her way to go,\nWith the help of friends, her heart will grow.\nAnd though the path be long, and her heart may feel heavy,\nFrom this day on, she'll see, she can travel far and free.\n\n(Verse 2)\nDuring the night, under the stars' guiding light,\nShe met a friend, a magical sprite, her laughter full of might.\nTogether they danced, under the moon, with joy and delight,\nBut when the morning came, the time to part they did find.\n\n(Chorus)\nAnd through the doors that close, she'll find her way to go,\nWith the help of friends, her heart will grow.\nAnd though the path be long, and her heart may feel heavy,\nFrom this day on, she'll see, she can travel far and free.\n\n(Bridge)\nHer heart was full of hope, a journey that was ripe,\nThat magic in her soul, in every place, it would find.\nAnd though the road was hard, with love and hope she'd carry,\nThat night she slept, with her dreams, and in her heart, they'd stay.\n\n(Outro)\nAnd so she'll travel, through this world so wide,\nWith her magic and her courage, she'll find her destiny.\nHer heart will guide her, with every step she'll take,\nBut always, in her dreams, the magic will never break."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "(Verse 1)\nIn a land far, far away, and it's not just a story,\nWhere fairy tales come alive, from the olden days.\nThrough forests deep and mountains high, her spirit so free,\nAnd she traveled far and wide, in this magical spree.\n\n(Chorus)\nIn this enchanted world, where magic is real,\nAnd you can fly with a dream, under a starry spell.\nBut the path may twist and turn, with a little bit of fear,\nAnd you might find a friend, that’s where your true heart is near.\n\n(Verse 2)\nDuring her journey, she met a wise old owl,\nWho whispered secrets, and told tales of old.\nAnd though her heart sometimes would feel small,\nBut she kept on walking, and her dreams never stalled.\n\n(Bridge)\nThrough a dark forest, past a castle tall,\nHer courage was shining, like a golden ball.\nIn the end, her journey came to a close,\nAnd she learned the most, in her magical nose.\n\n(Chorus)\nIn this enchanted world, where magic is real,\nAnd you can fly with a dream, under a starry spell.\nBut the path may twist and turn, with a little bit of fear,\nAnd you might find a friend, that’s where your true heart is near.\n\n(Outro)\nSo remember, dear child, in this world you can go,\nFrom the smallest steps to the biggest show.\nAnd when the night draws near, and the world seems so bright,\nJust remember, and you’ll find, that magic can light."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "(Verse 1)\nIn a land far, far away,\nAnd in a castle high,\nA princess traveled through the night,\nBut her dreams were far from right.\nDuring the moon's soft, gentle light,\nShe searched for magic, pure and bright.\n\n(Chorus)\nFrom the forest to the shore,\nThrough the mountains and the door,\nIn every land she roamed,\nHer heart full of magic, her dreams of home.\nAnd in every tale she heard,\nThat her path was one of word.\n\n(Verse 2)\nWith a wand that glowed with might,\nBut with a heart full of fright,\nShe faced the dragon's fierce might,\nDuring her journey, with courage in sight.\nFrom the depths of the dark night,\nTo the dawn where hope takes flight.\n\n(Chorus)\nFrom the forest to the shore,\nThrough the mountains and the door,\nIn every land she roamed,\nHer heart full of magic, her dreams of home.\nAnd in every tale she heard,\nThat her path was one of word.\n\n(Bridge)\nIn the castle high and grand,\nWhere the princess found her band,\nTogether they faced the dark,\nBut their love and courage would not break.\nDuring the battle, they stood tall,\nWith magic, they conquered the fall.\n\n(Verse 3)\nAnd from the village to the town,\nHer magic touched every sound.\nWith every step and every twirl,\nShe brought hope and made magic swirl.\nFrom the sea to the castle, her journey unfurled,\nThat her spirit and courage would never be shrunk.\n\n(Chorus)\nFrom the forest to the shore,\nThrough the mountains and the door,\nIn every land she roamed,\nHer heart full of magic, her dreams of home.\nAnd in every tale she heard,\nThat her path was one of word.\n\n(Outro)\nSo remember, little one, wherever you roam,\nThat in every tale, there's a lesson to be known.\nFrom the magic in your dreams,\nTo the love that you and I share,\nAnd in the journey, that's for sure,\nThat’s the magic, my dear."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:7b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nRequired words:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "(Verse 1)\nIn a land of magic and fairy tales,\nOnce upon a time, her heart would swells.\nShe traveled through forests so vast and wide,\nDuring her journey, she’d hide from the tide.\n\n(Chorus)\nAnd into a castle she would go,\nBut magic was waiting, it did not flow.\nFrom the enchanted woods, to the starry skies,\nHer adventure would begin, oh, how she flies!\n\n(Verse 2)\nThrough the enchanted garden, she'd wander and play,\nBut the castle called, her spirit would sway.\nThat magical world, with its wondrous might,\nTraveled through time, with her heart in sight.\n\n(Chorus)\nAnd into a castle she would go,\nBut magic was waiting, it did not flow.\nFrom the enchanted woods, to the starry skies,\nHer adventure would begin, oh, how she flies!\n\n(Bridge)\nThrough the castle, she’d walk,\nAnd meet creatures that she’s not afraid to talk.\nIn the tower, with its glowing light,\nShe would find the magic, oh, just right!\n\n(Chorus)\nAnd into a castle she would go,\nBut magic was waiting, it did not flow.\nFrom the enchanted woods, to the starry skies,\nHer adventure would begin, oh, how she flies!"
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:7b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nRequired words:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "(Verse 1)\nIn a land of magic, where fairies take flight,\nAnd her heart soars high, in the moonlight,\nThrough enchanted forests, and over fields wide,\nDuring the day, but by night, she's by our side.\n\n(Chorus)\nTravel with me, to that magical place,\nWhere fairy tales come alive, and everything glows in the dark.\nIn this land, her spirit dances and plays,\nIn stories that last, forever, always, every day.\n\n(Verse 2)\nFrom the castle walls to the secret glade,\nThat hidden places, where whispers are made.\nBut when the night falls, and stars twinkle bright,\nHer eyes light up, and she's ready to take flight.\n\n(Chorus)\nTravel with me, to that magical place,\nWhere fairy tales come alive, and everything glows in the dark.\nIn this land, her spirit dances and plays,\nIn stories that last, forever, always, every day.\n\n(Outro)\nSo let's journey far, and explore this land,\nAnd find all the magic, that lies in your hand.\nIn the end, it's the stories that make us strong,\nTravel with me, to that magical place, where anything is possible, in the land of fantasy."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "**Title: The Happy Garden**\n\n**Verse 1:**\nIn the morning light so bright,\nTiny seeds are waking up to greet the day.\nThey stretch and they grow,\nIn the happy garden, there's so much to show.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Verse 2:**\nSquirrels scurry, birds take flight,\nUnder the big blue sky so wide and light.\nBumblebees buzz, butterflies flutter by,\nIn the happy garden, we all play and sigh.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Verse 3:**\nWater the seeds, plant the trees,\nIn the happy garden, friendship grows like leaves.\nLaugh and sing, let joy ring,\nIn the happy garden, our hearts do fling.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Outro:**\nSo come and join us in our garden spree,\nIn the happy garden, we all are free.\nHappy garden, happy garden,\nWhere we dance and play until the day is done."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "**Title: The Rainbow Adventure**\n\n**Verse 1:**\nIn the morning light, the sky is bright,\nA rainbow comes out to play in the night.\nRed and orange, yellow and green,\nBlue and indigo, purple is seen.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Verse 2:**\nRed is the apple, and orange is the zest,\nYellow is the sun, making the world the best.\nGreen is the grass, blue is the sky,\nIndigo is the calm, purple’s the why.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Bridge:**\nFrom the ground to the clouds, we’ll dance and sing,\nFinding joy in every color, every thing.\nThe rainbow’s a promise, it’s a sign of hope,\nA journey of wonder, where we’ll never stop.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Outro:**\nSo grab your boots and your brightest smile,\nLet’s chase the rainbow, make it all worthwhile.\nIn this colorful world, there’s magic to see,\nThe rainbow adventure, forever just for me."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "**Title: Puppy and Flower Friends**\n\n(Verse 1)\nIn a sunny garden so bright,\nWhere the colors dance in the light,\nThere’s a little puppy so small,\nWith a wag in his tail and a bark in his call.\n\n(Chorus)\nPuppy and flower, dancing in the breeze,\nTail and petals, twirling with ease,\nIn this happy garden, side by side,\nPuppy and flower, they’re the best of friends inside.\n\n(Verse 2)\nMorning comes with a dewy kiss,\nOn the flowers and puppy, oh so bliss!\nPuppy sniffs the air, flowers sway,\nIn the garden, it’s a happy day.\n\n(Chorus)\nPuppy and flower, in the morning glow,\nWhiskers and petals, a joyful show,\nPlaying and laughing, under the blue,\nPuppy and flower, they just can’t do enough!\n\n(Bridge)\nWhen the clouds come and skies are gray,\nPuppy and flowers have something to say.\nWith a wag and a twirl, they cheer you up,\nIn the garden, they’re always in your cup.\n\n(Chorus)\nPuppy and flower, in the sun and shade,\nTogether, they paint a colorful parade,\nIn this garden, they’re the magic made,\nPuppy and flower, they make you glad.\n\n(Outro)\nSo here’s to the puppy and his flower friends,\nIn the garden’s arms, they’re never ends.\nIn every garden, there’s a tale,\nOf the puppy and flower, oh so dale!\n\nThis song aims to capture the joy and simplicity of a child’s world, focusing on the innocence and wonder associated with pets and nature. The lyrics are easy to understand and include playful imagery that can stimulate a child’s imagination."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "**Title: Flower Dog's Adventure**\n\n(Verse 1)\nIn the morning light so bright,\nFlower Dog wakes up to a new day's delight.\nHe barks with joy and runs outside,\nTo play and find the flowers that hide.\n\n(Chorus)\nFlower Dog, Flower Dog,\nJumping high and running wide.\nFlower Dog, Flower Dog,\nIn the garden, he's so bold.\n\n(Verse 2)\nHe sniffs the air, and then he knows,\nThe sweet smell of flowers that grow.\nHe finds the pink ones, and the yellow too,\nIn the garden, he's having lots of fun, that's true.\n\n(Chorus)\nFlower Dog, Flower Dog,\nJumping high and running wide.\nFlower Dog, Flower Dog,\nIn the garden, he's so bold.\n\n(Bridge)\nHe plays with butterflies and bees,\nIn the garden, where the flowers tease.\nHe's happy all day long,\nWith flowers and sunshine, everything's right.\n\n(Chorus)\nFlower Dog, Flower Dog,\nJumping high and running wide.\nFlower Dog, Flower Dog,\nIn the garden, he's so bold.\n\n(Outro)\nAt night, when the stars come out,\nFlower Dog is tired and wants a lullaby shout.\nBut he's happy and dreams of more flowers,\nAnd the next day, he'll be waiting for them to appear, hours and hours."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn a garden full of flowers, big and bright,\nWhere the sun shines down and gives us light,\nThere once was a little dog, happy and free,\nRunning around, just waiting for me.\n\n(Chorus)\nOh, in the world of flowers and canines so true,\nAn anniversary of joy, it's for you and me too.\nCan you smell the sweet flowers, can you hear the bark?\nWe're best friends, and that's how it should be.\n\n(Verse 2)\nEvery day when I wake up, I see the flowers bloom,\nAnd I know it's time to play with my dog, the one and only zoom.\nWe run and we jump, we cuddle and play,\nIn this world of flowers and the dog's way.\n\n(Chorus)\nOh, in the world of flowers and canines so true,\nAn anniversary of joy, it's for you and me too.\nCan you smell the sweet flowers, can you hear the bark?\nWe're best friends, and that's how it should be.\n\n(Bridge)\nWhen we were just little, just two and one,\nWe found each other, and it felt like summer sun.\nThe flowers bloom, the dog plays, and we're in love,\nA little world of our own, where we are enough.\n\n(Chorus)\nOh, in the world of flowers and canines so true,\nAn anniversary of joy, it's for you and me too.\nCan you smell the sweet flowers, can you hear the bark?\nWe're best friends, and that's how it should be.\n\n(Outro)\nSo let's keep playing, let's keep exploring,\nIn the garden of flowers, our spirits soaring.\nThe dog and the flowers, our favorite things,\nWe'll be happy and we'll be singing."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn a world full of flowers and fun,\nThere's a place where your dreams come true.\nEvery day is a gift, a brand new start,\nAn adventure with your furry heart.\n\n(Chorus)\nOh, be the one to chase the sun,\nWith a wagging tail and a flower crown.\nThrough the fields and over the hill,\nWith your best friend, you'll have no chill.\n\n(Verse 2)\nRemember the day when you got your dog,\nThat was a day we'll never forget.\nAn anniversary to cherish and hold,\nWith your pup by your side, you're never cold.\n\n(Chorus)\nOh, be the one to chase the sun,\nWith a wagging tail and a flower crown.\nThrough the fields and over the hill,\nWith your best friend, you'll have no chill.\n\n(Bridge)\nWhen you're feeling blue, a flower's hue,\nA bright and cheerful sight to see.\nAnd when you're scared, your dog's there,\nTo make the bad dreams just disappear.\n\n(Chorus)\nOh, be the one to chase the sun,\nWith a wagging tail and a flower crown.\nThrough the fields and over the hill,\nWith your best friend, you'll have no chill.\n\n(Outro)\nSo be the one to share your dreams,\nWith your dog and your floral themes.\nIn this world of joy and delight,\nTogether you'll have all the might.\n\nThis song incorporates all the required words naturally while reflecting the child's interests in dogs and flowers, making it a joyful and age-appropriate piece."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "**Title: Doggy and the Flowers**\n\n**Verse 1:**\nIn the park where the flowers bloom so bright,\nThere's a doggy who loves to run and play all day and night.\nWith his wagging tail and his joyful bark,\nHe's always happy, he never wears a frown.\n\n**Chorus:**\nDoggy and the flowers, oh how they play,\nEvery sunny day, they come out to stay.\nDoggy loves to sniff and dig and play,\nIn the garden, he's the king of all the day.\n\n**Verse 2:**\nIn the garden, an anniversary day,\nDoggy and the flowers were there to play.\nThey danced around, they had so much fun,\nTogether they were the best of friends, they were one.\n\n**Chorus:**\nDoggy and the flowers, oh how they play,\nEvery sunny day, they come out to stay.\nDoggy loves to sniff and dig and play,\nIn the garden, he's the king of all the day.\n\n**Bridge:**\nDoggy wants to be with the flowers all the time,\nTo play and frolic in the sunshine, that’s his prime.\nThe flowers teach him to be kind,\nAnd he teaches them to be so wild and free.\n\n**Chorus:**\nDoggy and the flowers, oh how they play,\nEvery sunny day, they come out to stay.\nDoggy loves to sniff and dig and play,\nIn the garden, he’s the king of all the day.\n\n**Outro:**\nIn the park where the flowers bloom so bright,\nDoggy will always be there, with all his might.\nHe’ll be with his friends, under the sun,\nIn the park where the flowers come to have fun."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nThe following words must each appear at least once in the lyrics:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "**Title: A Flower and a Doggy**\n\n(Verse 1)\nIn a garden full of flowers,  \nWhere the sunbeams love to dawdle,  \nA little girl with a smile so bright,  \nWas walking with her doggy tonight.\n\n(Chorus)\nAn anniversary of joy and play,  \nIn the garden where the flowers sway.  \nWith her doggy by her side,  \nShe runs and laughs and feels so alive.\n\n(Verse 2)\nThere were pink and purple petals,  \nAnd a little doggy wagging his tail.  \nHe sniffed and snuffled and played all day,  \nIn the sweetest and most colorful way.\n\n(Chorus)\nAn anniversary of joy and play,  \nIn the garden where the flowers sway.  \nWith her doggy by her side,  \nShe runs and laughs and feels so alive.\n\n(Bridge)\nIn the garden, they explore,  \nEvery flower and every door.  \nBe it morning or the end of day,  \nThey be the best of friends, come what may.\n\n(Chorus)\nAn anniversary of joy and play,  \nIn the garden where the flowers sway.  \nWith her doggy by her side,  \nShe runs and laughs and feels so alive.\n\n(Outro)\nAnd when the day is done,  \nThey rest beneath the setting sun.  \nThe garden’s beauty, a happy spree,  \nFor a girl and her doggy, just you and me.\n\nThis song captures the joy and simplicity of a child’s day with their beloved pet, incorporating the required elements naturally and cohesively."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nRequired words:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "(Verse 1)\nIn the park where flowers bloom,\nRuns a happy dog named Zoom.\nEvery day he sees the sun,\nChasing butterflies till they're done.\n\n(Chorus)\nZoom loves the park, it's his place,\nWhere he can play and be at ease.\nHe meets his friends and plays till night,\nIn the park where flowers light.\n\n(Verse 2)\nOn one special day, an anniversary,\nZoom and his friends had a party.\nThey played with toys and shared a treat,\nUnder the sky so bright and sweet.\n\n(Chorus)\nZoom loves the park, it's his place,\nWhere he can play and be at ease.\nHe meets his friends and plays till night,\nIn the park where flowers light.\n\n(Bridge)\nWhen the flowers bloom and the sun shines,\nZoom runs around with joyous lines.\nHe was born to run and play,\nIn the park where flowers sway.\n\n(Chorus)\nZoom loves the park, it's his place,\nWhere he can play and be at ease.\nHe meets his friends and plays till night,\nIn the park where flowers light.\n\n(Outro)\nZoom's the best dog you'll ever meet,\nIn the park where he was meant to be.\nHis days are filled with fun and cheer,\nIn the park where flowers are near."
+  },
+  {
+    "child_id": "08f",
+    "recording_id": "08f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_words": [
+      "an",
+      "anniversary",
+      "be",
+      "the",
+      "were"
+    ],
+    "target_constraints": [
+      {
+        "word": "an",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "anniversary",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "be",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "the",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "were",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: dogs, flowers\n\nRequired words:\n\n- an: at least 1 occurrence(s)\n- anniversary: at least 1 occurrence(s)\n- be: at least 1 occurrence(s)\n- the: at least 1 occurrence(s)\n- were: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "```\n(Verse 1)\nIn the park where the flowers bloom,\nThere's a place where we always zoom.\nEvery day we run and play,\nWith our doggy friend, come what may.\n\n(Chorus)\nOh, the joy we feel when we're out and about,\nWith our dog and flowers, we're never without.\nIn the park where our hearts take flight,\nEvery day is like an anniversary, a perfect sight.\n\n(Verse 2)\nWhen the sun shines bright and the sky is blue,\nWe walk down the path where the flowers grew.\nOur doggy wags his tail so high,\nAs we watch the world go by with a happy sigh.\n\n(Chorus)\nOh, the joy we feel when we're out and about,\nWith our dog and flowers, we're never without.\nIn the park where our hearts take flight,\nEvery day is like an anniversary, a perfect sight.\n\n(Bridge)\nWe were just two little kids one day,\nNow we be the best of friends in every way.\nAn adventure starts with every step,\nAs we walk through the park, our spirits leap.\n\n(Chorus)\nOh, the joy we feel when we're out and about,\nWith our dog and flowers, we're never without.\nIn the park where our hearts take flight,\nEvery day is like an anniversary, a perfect sight.\n\n(Outro)\nSo here's to the park, the flowers, and the dog,\nEvery day brings a new adventure to jog.\nWe'll be here for many years to come,\nIn the park where our hearts do hum.\n```"
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "**Title: The Happy Garden**\n\n**Verse 1:**\nIn the morning light so bright,\nTiny seeds are waking up to greet the day.\nThey stretch and they grow,\nIn the happy garden, there's so much to show.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Verse 2:**\nSquirrels scurry, birds take flight,\nUnder the big blue sky so wide and light.\nBumblebees buzz, butterflies flutter by,\nIn the happy garden, we all play and sigh.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Verse 3:**\nWater the seeds, plant the trees,\nIn the happy garden, friendship grows like leaves.\nLaugh and sing, let joy ring,\nIn the happy garden, our hearts do fling.\n\n**Chorus:**\nHappy garden, happy garden,\nFull of flowers and sunshine and fun.\nHappy garden, happy garden,\nWhere we dance and play until the day is done.\n\n**Outro:**\nSo come and join us in our garden spree,\nIn the happy garden, we all are free.\nHappy garden, happy garden,\nWhere we dance and play until the day is done."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P1",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write original lyrics for a children's song.\n\n        Create an engaging, coherent song with a clear theme and natural language.\n        Use simple, memorable lyrics suitable for children.\n        Include a clear progression and, where appropriate, a catchy chorus.\n        Do not assume any specific child's age, interests, or required target words.\n\n        Output only the complete song lyrics.\n        ",
+    "lyric": "**Title: The Rainbow Adventure**\n\n**Verse 1:**\nIn the morning light, the sky is bright,\nA rainbow comes out to play in the night.\nRed and orange, yellow and green,\nBlue and indigo, purple is seen.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Verse 2:**\nRed is the apple, and orange is the zest,\nYellow is the sun, making the world the best.\nGreen is the grass, blue is the sky,\nIndigo is the calm, purple’s the why.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Bridge:**\nFrom the ground to the clouds, we’ll dance and sing,\nFinding joy in every color, every thing.\nThe rainbow’s a promise, it’s a sign of hope,\nA journey of wonder, where we’ll never stop.\n\n**Chorus:**\nOh, let’s go on a rainbow adventure,\nFind the pot of gold and the mystery solution.\nWith every color, we learn something new,\nTogether, we’ll explore and make our dreams come true.\n\n**Outro:**\nSo grab your boots and your brightest smile,\nLet’s chase the rainbow, make it all worthwhile.\nIn this colorful world, there’s magic to see,\nThe rainbow adventure, forever just for me."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "(Verse 1)\nIn a land where the stars sing,  \nPast the mountains where the moon swings,  \nThere's a place called Whimsy Grove,  \nWhere the magic never goes to sleep, oh!\n\n(Chorus)\nMagic in the air, everywhere you go,  \nFollow the moon, the night is your show,  \nDreams come true, with a wish and a kiss,  \nIn the land of magic, where the heart is the miss.\n\n(Verse 2)\nRiding on the back of a dragon’s breath,  \nChasing rainbows, painting dreams in the sky,  \nThere’s a castle made of candy and glass,  \nWhere the princesses and princes live with a whoosh.\n\n(Chorus)\nMagic in the air, everywhere you go,  \nFollow the moon, the night is your show,  \nDreams come true, with a wish and a kiss,  \nIn the land of magic, where the heart is the miss.\n\n(Bridge)\nOh, the dragon’s wings can carry you high,  \nTo the land of stars where the shooting stars fly,  \nThere, you'll meet the mermaids singing,  \nAnd the fairies dancing in the light, oh, oh, oh!\n\n(Chorus)\nMagic in the air, everywhere you go,  \nFollow the moon, the night is your show,  \nDreams come true, with a wish and a kiss,  \nIn the land of magic, where the heart is the miss.\n\n(Outro)\nSo close your eyes and let your heart take flight,  \nTo the land of wonder, where the magic shines bright,  \nIn the world of dreams where the stars wink and twinkle,  \nThat's where you’ll find your magic, the greatest of all twinkles."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [],
+    "target_constraints": [],
+    "condition": "P2",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+    "lyric": "**Title: Magical Journey**\n\n**Verse 1:**\nIn a land where the stars sing,\nAnd the moon is a dancing king,\nWith every step you take,\nYou're turning the world into magic cake.\n\n**Chorus:**\nOh, magical journey, come and play,\nIn a world where everything comes to life each day.\nWith a wave of your wand, you'll see,\nWonders beyond the blue sea.\n\n**Verse 2:**\nThere's a forest where the trees whisper,\nAnd the animals speak in a special language.\nWith every turn, you'll find,\nMore wonders that make your heart shine.\n\n**Chorus:**\nOh, magical journey, come and play,\nIn a world where everything comes to life each day.\nWith a wave of your wand, you'll see,\nWonders beyond the blue sea.\n\n**Bridge:**\nYou'll meet a dragon with scales of gold,\nAnd a princess with a heart made of gold.\nWith friends by your side,\nNo dream is too high.\n\n**Chorus:**\nOh, magical journey, come and play,\nIn a world where everything comes to life each day.\nWith a wave of your wand, you'll see,\nWonders beyond the blue sea.\n\n**Outro:**\nSo close your eyes, take a deep breath,\nAnd let the magic begin to flow,\nFor the world is full of endless fun,\nIn every story that you know."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nIn a land where magic blooms,\nShe dreams about the stories she consumes.\nWith a sparkle in her eye and a heart full of cheer,\nHer journey begins, a quest to uncover the year.\n\n(Chorus)\nOh, fairy tales and wonder so grand,\nIn the kingdom of dreams, we hold our hand.\nAnd through the night, under the starry band,\nHer adventure calls, in the magical land.\n\n(Verse 2)\nDuring the day, she reads and she writes,\nFilling her world with wonder and light.\nFrom the castle to the forest's edge,\nHer imagination knows no bounds, no regrets.\n\n(Chorus)\nOh, fairy tales and wonder so grand,\nIn the kingdom of dreams, we hold our hand.\nAnd through the night, under the starry band,\nHer adventure calls, in the magical land.\n\n(Bridge)\nBut in her heart, a secret she keeps,\nA place only known to the brave and the deep.\nShe's traveled through stories of old,\nLooking for the truth, the secret to be told.\n\n(Chorus)\nOh, fairy tales and wonder so grand,\nIn the kingdom of dreams, we hold our hand.\nAnd through the night, under the starry band,\nHer adventure calls, in the magical land.\n\n(Outro)\nAnd so her story goes, with every page,\nIn the land of magic, where dreams engage.\nHer journey leads her, to places unknown,\nIn a world full of magic, where she's all alone.\n\n(Chorus)\nOh, fairy tales and wonder so grand,\nIn the kingdom of dreams, we hold our hand.\nAnd through the night, under the starry band,\nHer adventure calls, in the magical land."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P3",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a song intended for a child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+    "lyric": "(Verse 1)\nOnce upon a time, in a land so bright,\nWhere the stars twinkle and the moon shines so tight,\nShe set off on a journey, all by her own might,\nTo find the magical place, where dreams take flight.\n\n(Chorus)\nIn a world of wonder, where magic does spin,\nShe's on an adventure, like a story within,\nOver hills and mountains, through fields so green,\nShe travels far and wide, to what she's seen.\n\n(Verse 2)\nDuring the day, she walked and she ran,\nThrough forests and streams, where the wild things began,\nShe met a talking rabbit, from a distant land,\nAnd they shared stories of the magic that's grand.\n\n(Chorus)\nIn a world of wonder, where magic does spin,\nShe's on an adventure, like a story within,\nOver hills and mountains, through fields so green,\nShe travels far and wide, to what she's seen.\n\n(Bridge)\nShe found a castle made of moonbeams,\nAnd a garden where flowers sing sweetly,\nBut when she reached the top of the highest tower,\nShe realized she had to go back to the hour,\nWhen her heart was full of wonder and light.\n\n(Verse 3)\nShe learned that the magic was always there,\nFrom her heart and her mind, without a care,\nAnd that every step she took was part of her tale,\nWith every memory, her spirit would pale.\n\n(Chorus)\nIn a world of wonder, where magic does spin,\nShe's on an adventure, like a story within,\nOver hills and mountains, through fields so green,\nShe travels far and wide, to what she's seen.\n\n(Outro)\nNow she knows, with a heart full of hope,\nThat magic and wonder are never in scope,\nAnd that wherever she goes, she'll find her way,\nTo a place where her dreams will forever play."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "**Title: The Magic of Her Journey**\n\n(Verse 1)\nOnce upon a time, in a land not far away,\nLived a brave little girl who was always on her way.\nShe loved stories of magic, tales of wonder and might,\nAnd during sunny mornings, she'd ride a broomstick night.\n\n(Chorus)\nOh, the magic of her journey, across the rainbow bridge,\nShe traveled through enchanted forests, and over misty ridge.\nHer heart was full of courage, her spirit bright and bold,\nAnd when she felt the darkness, she sang a cheerful chord.\n\n(Verse 2)\nShe met a talking rabbit, and a dragon with a beard,\nAnd that was just the beginning of her new world.\nShe climbed a mountain high, where the stars were so close,\nAnd in the moonlit sky, she danced and let her voice be known.\n\n(Chorus)\nOh, the magic of her journey, from the mountains to the sea,\nHer dreams took flight on dragon wings, and no fears could set her free.\nShe knew there were challenges, and sometimes she felt afraid,\nBut every step was a story, and she was not to be dismayed.\n\n(Bridge)\nOh, the magic is in her heart, and in her magical spell,\nShe'll find her way through anything, she's a hero, that's for sure.\nAnd when she faces giants, or creatures that are weird,\nShe'll remember all the stories, and keep her bravery near.\n\n(Chorus)\nOh, the magic of her journey, through the land and the sky,\nHer imagination's the key, to unlock all the why.\nAnd when she faces the future, and the days that are ahead,\nShe'll have the courage to travel, where no one else has led.\n\n(Outro)\nSo here's to the little girl, with her heart full of dreams,\nAnd all the magic stories, that she's yet to see.\nAnd as she travels further, she'll find her place in the tale,\nAnd maybe, just maybe, she'll bring us a little magic to make the world more real.\n\nIn this song, we've woven a tale of adventure and wonder, filled with magical creatures and breathtaking landscapes, all to inspire a child's imagination and sense of adventure."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P4",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nThe following words must each appear at least once in the lyrics:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nRequirements:\n- Make the lyrics appropriate for a child of this age.\n- Reflect the child's interests.\n- Naturally incorporate every required word.\n- Use simple, memorable language.\n- Create a clear theme and coherent progression.\n- Make the lyrics feel like a children's song.\n- Avoid awkwardly inserting required words.\n\nWrite complete song lyrics.\n",
+    "lyric": "**Title: Journey to the Enchanted Land**\n\n**Verse 1:**\nIn a land where magic reigns,\nA girl sets off to distant plains.\nShe travels through a forest green,\nTo find the place that’s meant to be seen.\n\n**Chorus:**\nOh, journey to the enchanted land,\nWhere fairies dance and dragons stand.\nThough sometimes the path is hard to find,\nYou’ll reach your dreams, leave fear behind.\n\n**Verse 2:**\nShe walks past rivers, over hills,\nAnd through the night when stars do spill.\nDuring her journey, she does find,\nA castle shining like a star so bright and kind.\n\n**Verse 3:**\nInside the castle, she meets a queen,\nWho tells her stories, and shows her scenes.\nFrom tales of dragons and of knights,\nTo princesses who face their fights.\n\n**Chorus:**\nOh, journey to the enchanted land,\nWhere fairies dance and dragons stand.\nThough sometimes the path is hard to find,\nYou’ll reach your dreams, leave fear behind.\n\n**Bridge:**\nShe knows that she must find her way,\nTo the place where magic plays.\nAnd though it seems so far away,\nShe knows she’ll find her way.\n\n**Verse 4:**\nShe looks out at the world so wide,\nWhere wonders hide and dreams abide.\nA place where magic never dies,\nAnd in her heart, she knows it lies.\n\n**Chorus:**\nOh, journey to the enchanted land,\nWhere fairies dance and dragons stand.\nThough sometimes the path is hard to find,\nYou’ll reach your dreams, leave fear behind.\n\n**Outro:**\nAnd as she travels, she does find,\nHer heart is light, and hope is kind.\nShe knows she’s on a magical quest,\nTo find the place that’s best.\n\nThe song weaves together the themes of a magical journey, overcoming challenges, and the pursuit of dreams, all while incorporating the required words in a way that feels natural and engaging for a child."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:14b",
+    "seed": 42,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nRequired words:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "**Verse 1:**\nIn a land where magic reigns,\nPrincess Lily dances in the rain.\nThrough the forest, she goes and then,\nHer heart skips a beat, she's never seen.\n\n**Chorus:**\nOh, the wonder of her tale,\nIn a world that’s big and pale,\nWith a wand and a smile, she’s never alone,\nFor the magic inside her heart, she’s all on her own.\n\n**Verse 2:**\nDuring the night, the stars light up,\nHer journey begins with a step, a skip.\nFrom the castle, to the mountains tall,\nHer spirit soars, she’s free from it all.\n\n**Chorus:**\nOh, the wonder of her tale,\nIn a world that’s big and pale,\nWith a wand and a smile, she’s never alone,\nFor the magic inside her heart, she’s all on her own.\n\n**Bridge:**\nBut oh, there’s a dragon near,\nShe’s brave and wise, no need to fear.\nWith a twirl of her wand, the dragon vanishes,\nAnd the princess smiles, a hero never misses.\n\n**Chorus:**\nOh, the wonder of her tale,\nIn a world that’s big and pale,\nWith a wand and a smile, she’s never alone,\nFor the magic inside her heart, she’s all on her own.\n\n**Outro:**\nSo if you dream of lands so grand,\nRemember the princess in every land.\nHer story teaches us to shine,\nAnd to believe in magic all the time."
+  },
+  {
+    "child_id": "09f",
+    "recording_id": "09f",
+    "dataset": "voices_cws_chat",
+    "age": "not specified",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_words": [
+      "and",
+      "but",
+      "during",
+      "from",
+      "her",
+      "that",
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "and",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "but",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "during",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "from",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "her",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 3
+      },
+      {
+        "word": "that",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 1
+      },
+      {
+        "word": "traveled",
+        "min_count": 1,
+        "max_count": null,
+        "observed_event_count": 2
+      }
+    ],
+    "condition": "P5",
+    "model": "qwen2.5:14b",
+    "seed": 123,
+    "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: not specified years\nChild interests: fairy tales, magical worlds\n\nRequired words:\n\n- and: at least 1 occurrence(s)\n- but: at least 1 occurrence(s)\n- during: at least 1 occurrence(s)\n- from: at least 1 occurrence(s)\n- her: at least 1 occurrence(s)\n- that: at least 1 occurrence(s)\n- traveled: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+    "lyric": "**Verse 1:**\nIn a land where magic flows,\nUnder the moon and starlit skies,\nA little girl with dreams aglow,\nHer heart full of fairy tales, oh my!\n\n**Chorus:**\nAnd in her world, she flies so high,\nBut when the night is dark and nigh,\nShe knows the magic will never die,\nFrom dawn till dusk, it will always be her guide.\n\n**Verse 2:**\nDuring the day, she runs and plays,\nThrough enchanted woods and fairy glades,\nWhere unicorns and dragons stay,\nAnd every step she travels, she’s amazed.\n\n**Chorus:**\nAnd in her world, she flies so high,\nBut when the night is dark and nigh,\nShe knows the magic will never die,\nFrom dawn till dusk, it will always be her guide.\n\n**Bridge:**\nShe looks for that one special spark,\nThat lights up all her days and nights,\nAnd though she sometimes feels quite stark,\nHer journey’s just beginning, oh so bright!\n\n**Chorus:**\nAnd in her world, she flies so high,\nBut when the night is dark and nigh,\nShe knows the magic will never die,\nFrom dawn till dusk, it will always be her guide.\n\n**Outro:**\nOh, little one, don’t ever doubt,\nThat in your heart, there’s magic found,\nAnd all the stories you will shout,\nAre true, dear, they’re all true, they’re around."
+  }
+]

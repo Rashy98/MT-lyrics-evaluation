@@ -346,19 +346,15 @@ function prepareEvaluationItems(
                 // but default to an empty array.
                 //
 
+                
                 let targetWords =
-                    item.target_words ||
-                    item.child_profile?.target_words ||
+                    item.evaluation_target_words ??
+                    item.target_words ??
+                    item.child_profile?.target_words ??
                     [];
 
-
                 if (!Array.isArray(targetWords)) {
-
-                    targetWords =
-                        targetWords
-                            ? [targetWords]
-                            : [];
-
+                    targetWords = [];
                 }
 
 
@@ -760,10 +756,8 @@ document
                     ),
 
 
-                target_words:
-                    item.target_words.join(
-                        ", "
-                    ),
+                evaluation_target_words: item.target_words.join(", "),
+                prompt_target_words: (item.prompt_target_words || []).join(", "),
 
 
                 // ------------------------------------------------
