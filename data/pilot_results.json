@@ -1,4 +1,5 @@
-{
+[
+    {
   "child_id": "08f",
   "recording_id": "08f",
   "dataset": "voices_cws_chat",
@@ -15,7 +16,6 @@
   "prompt": "Write original lyrics for a children's song.\n\nCreate an engaging, coherent song with a clear theme and natural language.\nUse simple, memorable lyrics suitable for children.\nInclude a clear progression and, where appropriate, a catchy chorus.\nDo not assume any specific child's age, interests, or required target words.\n\nOutput only the complete song lyrics.\n",
   "lyric": "We're Friends on a Sunny Day\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe share our toys and take turns too\nWe help each other, that's what we do\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe chase each other, wild and free\nRacing round the tree\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe work together, side by side\nPlanting flowers, and watching them grow with pride\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe're friends on a sunny day"
 }, 
-
 {
   "child_id": "12ma",
   "recording_id": "12ma",
@@ -41,7 +41,6 @@
   "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 12 years and 0 months years\nChild interests: space rockets, running\n\nRequired words:\n\n- tubman: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
   "lyric": "Here are the lyrics for the children's song:\n\n**Verse 1:**\nBlast off, blast off, into the sky\nWe're flying high, we won't say goodbye\nTo the Earth below, we'll soar so free\nLike Harriet Tubman, we'll explore with glee\n\n**Chorus:**\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins\n\n**Verse 2:**\nWe'll run like the wind, like a rocket's might\nThrough the galaxy, we'll shine so bright\nWe'll discover new worlds, and see what's in store\nAnd when we return, we'll run some more\n\n**Chorus:**\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins"
 },
-
 {
   "child_id": "10m",
   "recording_id": "10m",
@@ -89,4 +88,5 @@
   "prompt": "Write lyrics for a song intended for a child.\n\nChild age: 10 years and 0 months years\nChild interests: crafts, playing at the park\n\nThe following words must each appear at least once in the lyrics:\n\n- apart: at least 1 occurrence(s)\n- herself: at least 1 occurrence(s)\n- on: at least 1 occurrence(s)\n- this: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
   "lyric": "**Verse 1:**\nIn the park where the sun shines bright,\nOn the swings where my heart takes flight,\nI love to craft and create,\nMixing colors like magic, oh, what a treat!\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Verse 2:**\nWith my crayons in hand, I make my mark,\nDrawing pictures, all around her part.\nCrafting with her, sharing our hearts,\nThis little girl, she’s my partner!\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Bridge:**\nAt the park, she’s herself, free and wild,\nRunning around, with her spirit full.\nOn this adventure, she’ll find her own path,\nThis girl, she’s got the world at her grasp.\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Outro:**\nSo here’s to the joy of the day,\nAt the park where we play, we never stray.\nThis is our time, oh so true,\nTogether, apart, we all just grow!"
 }
+]
 
