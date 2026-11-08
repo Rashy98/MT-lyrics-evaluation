@@ -1,34 +1,28 @@
 [
     {
-        "child_id": "16fb",
-        "recording_id": "16fb",
+        "child_id": "08f",
+        "recording_id": "08f",
         "dataset": "voices_cws_chat",
-        "age": "16 years and 0 months",
+        "age": "8 years and 0 months",
         "interests": [
-            "puzzles",
-            "tea parties"
+            "dogs",
+            "flowers"
         ],
         "target_words": [
-            "gray",
-            "though"
+            "anniversary"
         ],
         "target_constraints": [
             {
-                "word": "gray",
-                "min_count": 1,
-                "max_count": null
-            },
-            {
-                "word": "though",
+                "word": "anniversary",
                 "min_count": 1,
                 "max_count": null
             }
         ],
         "condition": "P5",
-        "model": "qwen2.5:7b",
-        "seed": 456,
-        "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 16 years and 0 months years\nChild interests: puzzles, tea parties\n\nRequired words:\n\n- gray: at least 1 occurrence(s)\n- though: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
-        "lyric": "**Title: The Gray Puzzle Party**\n\n**Verse 1:**\nIn a land where the sky is gray,\nAnd puzzles fill up every day,\nWe have tea parties that shine so bright,\nThough the clouds might come and be just right.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Verse 2:**\nWith pieces big and pieces small,\nWe work together, no puzzle falls.\nThough we might not always agree,\nWe solve the puzzles, and we have a great deal of glee.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Bridge:**\nAt the tea party, we sip and chat,\nTales of the day, and plans to match.\nThough the world outside may seem dull,\nOur puzzles and friends make everything feel full.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Outro:**\nSo here’s to the fun, the puzzles, and the tea,\nAnd the friends we make, we’ll keep them near.\nThough life may bring some gray,\nOur puzzle party will always be our happy day!",
+        "model": "llama3.1:latest",
+        "seed": 42,
+        "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 8 years and 0 months years\nChild interests: dogs, flowers\n\nRequired words:\n\n- anniversary: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+        "lyric": "Verse 1:\nIn the garden, oh so bright\n Colors blooming, a beautiful sight\nRoses red, and daisies white\nA happy place, where I love to play tonight\n\nChorus:\nHappy anniversary, to me and you\nWe've had so much fun, and adventures too\nI've got my dog, and you've got a grin\nWe're celebrating, and having fun within\n\nVerse 2:\nMy furry friend, with a wagging tail\nLoves to run and play, without a fail\nHe brings me joy, and snuggles too\nA loyal companion, through and through\n\nChorus:\nHappy anniversary, to me and you\nWe've had so much fun, and adventures too\nI've got my dog, and you've got a grin\nWe're celebrating, and having fun within\n\nBridge:\nJust like flowers, our friendship grows\nStrong and beautiful, as the days go\nWith love and care, we'll keep it bright\nA special bond, a wonderful sight\n\nChorus:\nHappy anniversary, to me and you\nWe've had so much fun, and adventures too\nI've got my dog, and you've got a grin\nWe're celebrating, and having fun within",
         "generation_status": "success"
     },
 {
