@@ -1,92 +1,85 @@
 [
     {
-  "child_id": "08f",
-  "recording_id": "08f",
-  "dataset": "voices_cws_chat",
-  "age": "8 years and 0 months",
-  "interests": [
-    "dogs",
-    "flowers"
-  ],
-  "target_words": [],
-  "target_constraints": [],
-  "condition": "P1",
-  "model": "llama3.1",
-  "seed": 42,
-  "prompt": "Write original lyrics for a children's song.\n\nCreate an engaging, coherent song with a clear theme and natural language.\nUse simple, memorable lyrics suitable for children.\nInclude a clear progression and, where appropriate, a catchy chorus.\nDo not assume any specific child's age, interests, or required target words.\n\nOutput only the complete song lyrics.\n",
-  "lyric": "We're Friends on a Sunny Day\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe share our toys and take turns too\nWe help each other, that's what we do\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe chase each other, wild and free\nRacing round the tree\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe work together, side by side\nPlanting flowers, and watching them grow with pride\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe're friends on a sunny day"
-}, 
+        "child_id": "16fb",
+        "recording_id": "16fb",
+        "dataset": "voices_cws_chat",
+        "age": "16 years and 0 months",
+        "interests": [
+            "puzzles",
+            "tea parties"
+        ],
+        "target_words": [
+            "gray",
+            "though"
+        ],
+        "target_constraints": [
+            {
+                "word": "gray",
+                "min_count": 1,
+                "max_count": null
+            },
+            {
+                "word": "though",
+                "min_count": 1,
+                "max_count": null
+            }
+        ],
+        "condition": "P5",
+        "model": "qwen2.5:7b",
+        "seed": 456,
+        "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 16 years and 0 months years\nChild interests: puzzles, tea parties\n\nRequired words:\n\n- gray: at least 1 occurrence(s)\n- though: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
+        "lyric": "**Title: The Gray Puzzle Party**\n\n**Verse 1:**\nIn a land where the sky is gray,\nAnd puzzles fill up every day,\nWe have tea parties that shine so bright,\nThough the clouds might come and be just right.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Verse 2:**\nWith pieces big and pieces small,\nWe work together, no puzzle falls.\nThough we might not always agree,\nWe solve the puzzles, and we have a great deal of glee.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Bridge:**\nAt the tea party, we sip and chat,\nTales of the day, and plans to match.\nThough the world outside may seem dull,\nOur puzzles and friends make everything feel full.\n\n**Chorus:**\nJoin the gray puzzle party, let’s have a tea,\nWith friends and laughter, we won’t let the weather be.\nThough the sky might show a frown,\nWe’ll still have fun, in our gray town!\n\n**Outro:**\nSo here’s to the fun, the puzzles, and the tea,\nAnd the friends we make, we’ll keep them near.\nThough life may bring some gray,\nOur puzzle party will always be our happy day!",
+        "generation_status": "success"
+    },
 {
-  "child_id": "12ma",
-  "recording_id": "12ma",
-  "dataset": "voices_cws_chat",
-  "age": "12 years and 0 months",
-  "interests": [
-    "space rockets",
-    "running"
-  ],
-  "target_words": [
-    "tubman"
-  ],
-  "target_constraints": [
-    {
-      "word": "tubman",
-      "min_count": 1,
-      "max_count": null
-    }
-  ],
-  "condition": "P5",
-  "model": "llama3.1",
-  "seed": 42,
-  "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 12 years and 0 months years\nChild interests: space rockets, running\n\nRequired words:\n\n- tubman: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
-  "lyric": "Blast off, blast off, into the sky\nWe're flying high, we won't say goodbye\nTo the Earth below, we'll soar so free\nLike Harriet Tubman, we'll explore with glee\n\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins\n\nWe'll run like the wind, like a rocket's might\nThrough the galaxy, we'll shine so bright\nWe'll discover new worlds, and see what's in store\nAnd when we return, we'll run some more\n\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins"
-},
+        "child_id": "M_0098_10y6m",
+        "recording_id": "M_0098_10y6m_1",
+        "dataset": "uclass",
+        "age": "10 years and 6 months",
+        "interests": [
+            "trucks",
+            "discovering how things work"
+        ],
+        "target_words": [
+            "last",
+            "trying"
+        ],
+        "target_constraints": [
+            {
+                "word": "last",
+                "min_count": 1,
+                "max_count": null
+            },
+            {
+                "word": "trying",
+                "min_count": 1,
+                "max_count": null
+            }
+        ],
+        "condition": "P3",
+        "model": "qwen2.5:7b",
+        "seed": 42,
+        "prompt": "Write lyrics for a song intended for a child.\n\nChild age: 10 years and 6 months years\nChild interests: trucks, discovering how things work\n\nThe following words must each appear at least once in the lyrics:\n\n- last: at least 1 occurrence(s)\n- trying: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
+        "lyric": "(Verse 1)\nIn the garage, under the last light,\nWith trucks lined up, they're all aglow.\nI'm watching them, they're my daylights,\nTrying to see how they roll and go.\n\n(Chorus)\nOh, the trucks in my garage,\nSo much fun to explore.\nHow they move, how they work,\nI'm trying to discover more.\n\n(Verse 2)\nUnder the last light of the day,\nI can see the wheels spinning round.\nEach truck has a story to say,\nTrying to find out the sound.\n\n(Chorus)\nOh, the trucks in my garage,\nSo much fun to explore.\nHow they move, how they work,\nI'm trying to discover more.\n\n(Bridge)\nFrom big rigs to tiny tractors,\nEvery one's special in its part.\nI'm trying to understand their actions,\nIn this garage, my learning starts.\n\n(Chorus)\nOh, the trucks in my garage,\nSo much fun to explore.\nHow they move, how they work,\nI'm trying to discover more.\n\n(Outro)\nSo here I stay, under the last light,\nWith trucks in my sights.\nTrying to understand their right,\nIn the garage, my daylights.\n\n(Repeat Chorus)",
+        "generation_status": "success"
+    },
 {
-  "child_id": "10m",
-  "recording_id": "10m",
-  "dataset": "voices_cws_chat",
-  "age": "10 years and 0 months",
-  "interests": [
-    "crafts",
-    "playing at the park"
-  ],
-  "target_words": [
-    "apart",
-    "herself",
-    "on",
-    "this"
-  ],
-  "target_constraints": [
-    {
-      "word": "apart",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
+        "child_id": "M_0100_11y2m",
+        "recording_id": "M_0100_11y2m_1",
+        "dataset": "uclass",
+        "age": "11 years and 2 months",
+        "interests": [
+            "chocolate",
+            "cats"
+        ],
+        "target_words": [],
+        "target_constraints": [],
+        "condition": "P2",
+        "model": "llama3.1:latest",
+        "seed": 42,
+        "prompt": "Write lyrics for a song intended for a child.\n\nChild age: 11 years and 2 months years\nChild interests: chocolate, cats\n\nCreate engaging, age-appropriate lyrics that reflect the child's interests.\nUse simple, natural language suitable for the child's age.\n",
+        "lyric": "**Title:** \"Munchie Kitty Fun Day\"\n\n**Verse 1:**\nI love to eat my chocolate treats\nThey're sweet and yummy, can't be beat\nBut then I see a kitty face\nAnd my heart starts to smile and pace\n\n**Chorus:**\nMunchie kitty, fun day play\nWe'll chase and laugh, in our own sweet way\nWhiskers and wags, and chocolate too\nMunchie kitty, fun day, just me and you\n\n**Verse 2:**\nMy kitty friend, Luna, is so cool\nShe purrs and cuddles, it's her special rule\nWe play with toys, and snuggle up tight\nLife is happy, with my kitty by my side tonight\n\n**Chorus:**\nMunchie kitty, fun day play\nWe'll chase and laugh, in our own sweet way\nWhiskers and wags, and chocolate too\nMunchie kitty, fun day, just me and you\n\n**Bridge:**\nWe'll have a picnic, under the tree\nWith chocolate snacks, and a kitty to see\nWe'll watch the clouds, and feel so free\nJust me, my kitty, and chocolate glee!\n\n**Chorus:**\nMunchie kitty, fun day play\nWe'll chase and laugh, in our own sweet way\nWhiskers and wags, and chocolate too\nMunchie kitty, fun day, just me and you\n\nThis song is meant to be a fun, upbeat celebration of the child's interests in chocolate and cats. The lyrics are simple and easy to follow, making it perfect for an 11-year-old to sing along to!",
+        "generation_status": "success"
     },
-    {
-      "word": "herself",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
-    },
-    {
-      "word": "on",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
-    },
-    {
-      "word": "this",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
-    }
-  ],
-  "condition": "P3",
-  "model": "qwen2.5:7b",
-  "seed": 456,
-  "prompt": "Write lyrics for a song intended for a child.\n\nChild age: 10 years and 0 months years\nChild interests: crafts, playing at the park\n\nThe following words must each appear at least once in the lyrics:\n\n- apart: at least 1 occurrence(s)\n- herself: at least 1 occurrence(s)\n- on: at least 1 occurrence(s)\n- this: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
-  "lyric": "In the park where the sun shines bright,\nOn the swings where my heart takes flight,\nI love to craft and create,\nMixing colors like magic, oh, what a treat!\n\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\nWith my crayons in hand, I make my mark,\nDrawing pictures, all around her part.\nCrafting with her, sharing our hearts,\nThis little girl, she’s my partner!\n\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\nAt the park, she’s herself, free and wild,\nRunning around, with her spirit full.\nOn this adventure, she’ll find her own path,\nThis girl, she’s got the world at her grasp.\n\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\nSo here’s to the joy of the day,\nAt the park where we play, we never stray.\nThis is our time, oh so true,\nTogether, apart, we all just grow!"
-}
 ]
 
