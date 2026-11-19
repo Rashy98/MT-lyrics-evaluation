@@ -1,92 +1,697 @@
 [
-    {
-  "child_id": "08f",
-  "recording_id": "08f",
-  "dataset": "voices_cws_chat",
-  "age": "8 years and 0 months",
-  "interests": [
-    "dogs",
-    "flowers"
-  ],
-  "target_words": [],
-  "target_constraints": [],
-  "condition": "P1",
-  "model": "llama3.1",
-  "seed": 42,
-  "prompt": "Write original lyrics for a children's song.\n\nCreate an engaging, coherent song with a clear theme and natural language.\nUse simple, memorable lyrics suitable for children.\nInclude a clear progression and, where appropriate, a catchy chorus.\nDo not assume any specific child's age, interests, or required target words.\n\nOutput only the complete song lyrics.\n",
-  "lyric": "We're Friends on a Sunny Day\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe share our toys and take turns too\nWe help each other, that's what we do\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe chase each other, wild and free\nRacing round the tree\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe work together, side by side\nPlanting flowers, and watching them grow with pride\nWe're friends on a sunny day\nPlaying together, in our own special way\n\nWe're friends on a sunny day\nPlaying outside in our own special way\nWe laugh and shout and spin around\nFeeling happy, never a frown\n\nWe're friends on a sunny day"
-}, 
-{
-  "child_id": "12ma",
-  "recording_id": "12ma",
-  "dataset": "voices_cws_chat",
-  "age": "12 years and 0 months",
-  "interests": [
-    "space rockets",
-    "running"
-  ],
-  "target_words": [
-    "tubman"
-  ],
-  "target_constraints": [
-    {
-      "word": "tubman",
-      "min_count": 1,
-      "max_count": null
-    }
-  ],
-  "condition": "P5",
-  "model": "llama3.1",
-  "seed": 42,
-  "prompt": "Write lyrics for a children's song for the following child.\n\nChild age: 12 years and 0 months years\nChild interests: space rockets, running\n\nRequired words:\n\n- tubman: at least 1 occurrence(s)\n\nBefore writing the lyrics, internally plan how the required words can be\nincorporated naturally into the song.\n\nGeneration requirements:\n1. Establish a clear child-appropriate theme.\n2. Connect the theme to the child's interests.\n3. Decide where each required word fits naturally.\n4. Avoid clustering the required words unnaturally.\n5. Use simple and memorable language.\n6. Maintain coherence across verses and chorus.\n7. Ensure every required word appears at least once.\n8. Produce complete song lyrics only.\n\nDo not output the planning process. Output only the final lyrics.\n",
-  "lyric": "Here are the lyrics for the children's song:\n\n**Verse 1:**\nBlast off, blast off, into the sky\nWe're flying high, we won't say goodbye\nTo the Earth below, we'll soar so free\nLike Harriet Tubman, we'll explore with glee\n\n**Chorus:**\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins\n\n**Verse 2:**\nWe'll run like the wind, like a rocket's might\nThrough the galaxy, we'll shine so bright\nWe'll discover new worlds, and see what's in store\nAnd when we return, we'll run some more\n\n**Chorus:**\nRocket, rocket, take us away\nTo the stars and beyond, we'll play\nWe'll run and jump, we'll dance and spin\nIn the cosmos, our adventure begins"
-},
-{
-  "child_id": "10m",
-  "recording_id": "10m",
-  "dataset": "voices_cws_chat",
-  "age": "10 years and 0 months",
-  "interests": [
-    "crafts",
-    "playing at the park"
-  ],
-  "target_words": [
-    "apart",
-    "herself",
-    "on",
-    "this"
-  ],
-  "target_constraints": [
-    {
-      "word": "apart",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
+  {
+    "dataset": "voices_cws_chat",
+    "child_id": "09m",
+    "recording_id": "09m",
+    "condition": "P4",
+    "age": "9 years and 0 months",
+    "interests": [
+      "the ocean",
+      "magical worlds"
+    ],
+    "target_repetitions": 5,
+    "target_words": [
+      "one"
+    ],
+    "target_constraints": [
+      {
+        "word": "one",
+        "min_count": 5,
+        "max_count": null,
+        "count_scope": "chorus"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "seed": 123,
+    "prompt": "ROLE\nYou are an experienced children's songwriter specialising in\nshort, engaging and age-appropriate songs for children.\n\nTASK\nCreate an original children's song using the child profile and\nrequirements provided below.\n\nThe song should have one clear central idea, natural lyrical flow,\nand memorable phrases that are enjoyable and comfortable for a\nchild to sing.\n\n\nCORE SONGWRITING PRINCIPLES\n- Build the song around one clear event, activity, discovery or simple\n  imaginative situation. Give it a small sense of progression.\n- Make the chorus and verse feel as though they belong to the same song.\n  The verse should develop or support the central idea.\n- Use concrete, familiar, age-appropriate language and natural grammar.\n- Write lines that sound natural when spoken as well as when sung.\n- Prefer short, memorable phrases with a comfortable rhythm.\n- Use rhyme, alliteration and playful sound patterns only when they fit.\n  Never change word order, grammar or meaning just to create a rhyme.\n- Repetition should make a phrase memorable, musical or meaningful.\n  Avoid repeating complete lines merely to fill space.\n- Avoid vocabulary-list writing, disconnected statements, generic filler,\n  unnecessary descriptions and unrelated events.\n- Keep the tone warm, playful, encouraging and emotionally safe.\n- Use questions, invitations or call-and-response only when they suit the\n  song's central idea; do not force an interaction into every song.\n- Never frame the child as a problem to be fixed. Do not demand perfect\n  speech, correct the child or make therapeutic claims.\n\n\nPERSONALISATION\n- Use age, interests and other profile details only when they are supplied\n  in the condition-specific information.\n- When interests are provided, select one or two that can contribute\n  naturally to the central activity, event or mini-story.\n- Show an interest through an action or role in the song rather than\n  simply naming or listing it.\n- Do not force an interest into a context where it does not make sense.\n  If a target word does not naturally fit an interest, let the target's\n  meaning guide the situation and use the interest only where appropriate.\n- Do not assume that the child owns an object, has a pet, attended an event\n  or experienced something unless the profile explicitly says so.\n- You may create a simple fictional or imaginative song situation, but do\n  not present invented details as facts about the child's real life.\n\n\nSONG LENGTH AND STRUCTURE\nReturn exactly these two sections, in this order:\n\n[Chorus]\nUsually 4-6 concise lyric lines\n\n[Verse]\nUsually 2-4 concise lyric lines\n\n- Aim for approximately 6-10 lyric lines in total.\n- Make the chorus memorable and suitable for singing again.\n- Let the verse add a small action, detail or moment that develops the\n  same central idea; do not introduce a separate story.\n- For target-word conditions, the chorus may need additional words or lines\n  to meet the required counts. Meet every target requirement with the\n  least unnecessary material; do not sacrifice naturalness for brevity.\n- Do not add a title, introduction, pre-chorus, bridge, second verse, outro,\n  stage directions, chord symbols or explanatory notes.\n- Use the exact bracketed section headings. Do not substitute \"Chorus:\"\n  or \"Verse:\".\n\n\nOUTPUT RULES\n- Output only the finished lyrics.\n- Include exactly one [Chorus] heading followed by exactly one [Verse] heading.\n- Do not include text before [Chorus] or after the final verse line.\n- Do not explain your choices or reveal internal reasoning or planning.\n- Write all lyrics in full. Never use \"repeat chorus\", ellipses or placeholders.\n\nEXPERIMENTAL CONDITION: P4 — CONTEXTUAL TARGET INTEGRATION\n\nCHILD PROFILE\nAge: 9 years and 0 months\nInterests: the ocean, magical worlds\n\nWrite an age-appropriate, personalised song in which every target word\nbelongs naturally to the situation described by the lyrics.\n\nFor each target, use its ordinary meaning to identify a plausible child-\nfriendly event, action, object or interaction. Establish a context in which\nthe target would make sense before deciding how to repeat it. If the target\ndoes not fit the child's interests, let the target guide the situation;\nuse interests only where they genuinely complement it.\n\nThe target words should feel like meaningful parts of what is happening,\nnot vocabulary items inserted into unrelated lines. Give the chorus a\nnatural reason to revisit each target, such as a recurring event, response,\ndiscovery or refrain.\n\nMeet the minimum chorus count for every target while keeping the context\nclear, coherent and concise.\n\nTARGET-WORD INTEGRATION AND REPETITION\n- 'one': use this exact word form at least 5 times in the [Chorus] section.\n\n- Use each target in its ordinary, intended meaning and in a grammatically\n  correct role within the lyric. Do not change its meaning to make it fit\n  a rhyme, interest or convenient phrase.\n- Preserve the exact target word form. Do not replace it with a synonym,\n  inflection or a longer word that only contains the same letters.\n- Each complete target must appear at least its specified number of times\n  in the [Chorus]. Count only complete, standalone occurrences in the\n  chorus; occurrences in the verse or partial syllables do not count.\n- Before finalising, silently check the chorus and make sure every target\n  reaches its minimum count. If a count is short, revise the lyrics.\n- There is no fixed upper limit. Do not add occurrences beyond the minimum\n  unless they contribute to a meaningful refrain, musical phrase or\n  coherent interaction.\n- Give the target a clear reason to be present in the song. If its meaning\n  does not naturally fit the child's interests, build a plausible,\n  child-friendly situation around the target instead of forcing the\n  target into an unrelated interest.\n- Do not put targets into grammatically incorrect sentences, meaningless\n  lists or lines that make no sense when read aloud.\n- Keep each target easy to hear and sing by placing it in a clear phrase.\n  Avoid hiding it in a long or confusing sentence.\n- If there are several targets, give each one meaningful attention and\n  satisfy each minimum count. Do not neglect one target in favour of another.\n- Do not sacrifice semantic accuracy, grammaticality or natural\n  children's-song writing merely to increase the count.\n\n\nREPETITION STRATEGIES\n- Use a repetition strategy that suits the particular word and song.\n  Possible strategies include a recurring refrain, a changing phrase,\n  call-and-response, a question and answer, or repetition within a small\n  narrative. These are options, not a fixed template.\n- Vary the surrounding lyric where useful, but do not vary it so much that\n  the target's meaning becomes unclear.\n\nPLAYFUL SYLLABLE OR PARTIAL-WORD REPETITION\n- You may add playful repetitions of a target's opening syllable or sound\n  sequence when this is appropriate for the word and the intended activity.\n- For example, a long target such as \"anniversary\" could be preceded by a\n  short syllabic lead-in such as \"an-ni, an-ni, anniversary\".\n- Choose fragments according to pronunciation, not spelling alone. Do not\n  invent inaccurate syllables or use a fragment that changes the word's\n  meaning.\n- This technique is optional. Do not force it into every song or target.\n- Partial syllables and approximations do NOT count toward the required\n  number of complete target-word occurrences.\n- Treat these as creative songwriting options, not clinically validated\n  speech cues. Follow RMT-provided pronunciation or cueing guidance when\n  available.",
+    "concept_or_plan": "**Context Map:**\n\n1. **one**\n\t* Ordinary meaning: the number 1\n\t* Natural action/event/interaction: counting, collecting, or identifying a single object\n2. **ocean**\n\t* Ordinary meaning: a large body of saltwater\n\t* Natural action/event/interaction: exploring, playing, or learning about the ocean\n3. **magical worlds**\n\t* Ordinary meaning: imaginary or fantastical places\n\t* Natural action/event/interaction: creating, exploring, or visiting magical realms\n\n**Connecting the targets:**\n\nThe targets can be connected through a situation where a child is on a beach, exploring the ocean, and discovering a magical world hidden within the waves. The child is counting the shells they collect, and the number one becomes significant as they find a special, unique shell that leads them to a magical underwater world.\n\n**Context Map Connection:**\n\nThe child is on a beach, counting the shells they collect. As they find a special shell, they notice that it has a number one etched onto it. This sparks their curiosity, and they decide to explore the ocean further. As they swim deeper, they discover a magical world hidden within the waves. The magical world is filled with wonders and treasures, and the child feels like they've entered a new, fantastical realm. The number one becomes significant as they realize that this special shell was the key to unlocking this magical world.\n\nNow that the context map is complete, I can proceed to write the lyrics.",
+    "initial_lyric": "[Chorus]\nCounting shells on the beach so fine\nFinding one, it's special, it shines\nIn the ocean's waves, a world is found\nWhere magic waits, and wonders abound\nOne by one, I'll discover more\nIn the ocean's depths, where magic's in store\n\n[Verse]\nI'm on the beach, the sun is high\nCollecting shells, as the waves go by\nI find a shell, with a number one\nIt's special, and it's just begun",
+    "final_lyric": "[Chorus]\nWe're on the beach, where the waves do play\nCounting shells, one by one, every day\nWe find a special shell, with a number one so bright\nIt leads us to the ocean, where magic takes flight\nWe swim and we discover, one by one, a world so new\nIn the ocean's depths, our magical world shines through\n\n[Verse]\nAs we explore the waves, we find a hidden place\nWhere treasures wait, and wonders fill the space\nThe special shell's number one, guided us to this sight\nNow we'll discover secrets, in the ocean's magic light",
+    "final_validation": {
+      "passed": true,
+      "issues": [],
+      "target_counts_in_chorus": {
+        "one": {
+          "count": 5,
+          "minimum": 5
+        }
+      },
+      "line_count": 10,
+      "has_chorus": true,
+      "has_verse": true
     },
-    {
-      "word": "herself",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
+    "model_review_final": {
+      "pass": true,
+      "issues": [
+        {
+          "type": "semantic coherence",
+          "description": "The lyrics could be more explicit about the connection between the special shell and the ocean's magic light."
+        },
+        {
+          "type": "singability",
+          "description": "The lyrics may benefit from a more consistent rhythm and meter to improve singability."
+        }
+      ],
+      "revision_instructions": "",
+      "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics could be more explicit about the connection between the special shell and the ocean's magic light.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics may benefit from a more consistent rhythm and meter to improve singability.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nThe lyrics generally follow good grammar and natural phrasing. The target word \"one\" is integrated meaningfully throughout the song, and the repetition count is met. The lyrics are also age-appropriate and interesting for children. However, there are two areas for potential improvement:\n\n1. Semantic coherence: While the lyrics are generally coherent, the connection between the special shell and the ocean's magic light could be more explicitly stated. This might help to clarify the meaning and create a more cohesive narrative.\n2. Singability: The lyrics may benefit from a more consistent rhythm and meter to improve singability. This could involve adjusting the word order, syllable count, or stress patterns to create a more natural flow.\n\nOverall, the lyrics are well-written and engaging, and with some minor revisions, they could be even more effective."
     },
-    {
-      "word": "on",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
+    "revision_attempts": 1,
+    "generation_status": "passed",
+    "validation_history": [
+      {
+        "stage": "concept_or_condition_plan",
+        "output": "**Context Map:**\n\n1. **one**\n\t* Ordinary meaning: the number 1\n\t* Natural action/event/interaction: counting, collecting, or identifying a single object\n2. **ocean**\n\t* Ordinary meaning: a large body of saltwater\n\t* Natural action/event/interaction: exploring, playing, or learning about the ocean\n3. **magical worlds**\n\t* Ordinary meaning: imaginary or fantastical places\n\t* Natural action/event/interaction: creating, exploring, or visiting magical realms\n\n**Connecting the targets:**\n\nThe targets can be connected through a situation where a child is on a beach, exploring the ocean, and discovering a magical world hidden within the waves. The child is counting the shells they collect, and the number one becomes significant as they find a special, unique shell that leads them to a magical underwater world.\n\n**Context Map Connection:**\n\nThe child is on a beach, counting the shells they collect. As they find a special shell, they notice that it has a number one etched onto it. This sparks their curiosity, and they decide to explore the ocean further. As they swim deeper, they discover a magical world hidden within the waves. The magical world is filled with wonders and treasures, and the child feels like they've entered a new, fantastical realm. The number one becomes significant as they realize that this special shell was the key to unlocking this magical world.\n\nNow that the context map is complete, I can proceed to write the lyrics."
+      },
+      {
+        "stage": "initial_lyric",
+        "output": "[Chorus]\nCounting shells on the beach so fine\nFinding one, it's special, it shines\nIn the ocean's waves, a world is found\nWhere magic waits, and wonders abound\nOne by one, I'll discover more\nIn the ocean's depths, where magic's in store\n\n[Verse]\nI'm on the beach, the sun is high\nCollecting shells, as the waves go by\nI find a shell, with a number one\nIt's special, and it's just begun"
+      },
+      {
+        "stage": "python_validation_initial",
+        "result": {
+          "passed": false,
+          "issues": [
+            "Target 'one' occurs 3 time(s) in [Chorus]; minimum is 5."
+          ],
+          "target_counts_in_chorus": {
+            "one": {
+              "count": 3,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_initial",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The verse and chorus have different focuses. The verse is about collecting shells, while the chorus is about discovering magic in the ocean."
+            },
+            {
+              "type": "singability",
+              "description": "The lyrics may be a bit too complex for young children to follow and sing along to, especially the phrase 'In the ocean's depths, where magic's in store'."
+            }
+          ],
+          "revision_instructions": "",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different focuses. The verse is about collecting shells, while the chorus is about discovering magic in the ocean.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics may be a bit too complex for young children to follow and sing along to, especially the phrase 'In the ocean's depths, where magic's in store'.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI have flagged two issues: semantic coherence and singability. The song's meaning and focus are not entirely consistent between the verse and chorus, which may cause confusion for young listeners. Additionally, the lyrics may be too complex for young children to follow and sing along to, which may affect the song's overall impact and engagement."
+        }
+      },
+      {
+        "stage": "revision_1",
+        "output": "[Chorus]\nWe're on the beach, where the waves do play\nCounting shells, one by one, every day\nWe find a special shell, with a number one so bright\nIt leads us to the ocean, where magic takes flight\nWe swim and we discover, one by one, a world so new\nIn the ocean's depths, our magical world shines through\n\n[Verse]\nAs we explore the waves, we find a hidden place\nWhere treasures wait, and wonders fill the space\nThe special shell's number one, guided us to this sight\nNow we'll discover secrets, in the ocean's magic light",
+        "python_validation": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "one": {
+              "count": 5,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_1",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The lyrics could be more explicit about the connection between the special shell and the ocean's magic light."
+            },
+            {
+              "type": "singability",
+              "description": "The lyrics may benefit from a more consistent rhythm and meter to improve singability."
+            }
+          ],
+          "revision_instructions": "",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics could be more explicit about the connection between the special shell and the ocean's magic light.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics may benefit from a more consistent rhythm and meter to improve singability.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nThe lyrics generally follow good grammar and natural phrasing. The target word \"one\" is integrated meaningfully throughout the song, and the repetition count is met. The lyrics are also age-appropriate and interesting for children. However, there are two areas for potential improvement:\n\n1. Semantic coherence: While the lyrics are generally coherent, the connection between the special shell and the ocean's magic light could be more explicitly stated. This might help to clarify the meaning and create a more cohesive narrative.\n2. Singability: The lyrics may benefit from a more consistent rhythm and meter to improve singability. This could involve adjusting the word order, syllable count, or stress patterns to create a more natural flow.\n\nOverall, the lyrics are well-written and engaging, and with some minor revisions, they could be even more effective."
+        }
+      },
+      {
+        "stage": "python_validation_final",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "one": {
+              "count": 5,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      }
+    ],
+    "elapsed_seconds": 113.16
+  },
+  {
+    "dataset": "voices_cws_chat",
+    "child_id": "11mb",
+    "recording_id": "11mb",
+    "condition": "P4",
+    "age": "11 years and 0 months",
+    "interests": [
+      "fire engines",
+      "discovering how things work"
+    ],
+    "target_repetitions": 5,
+    "target_words": [
+      "knew"
+    ],
+    "target_constraints": [
+      {
+        "word": "knew",
+        "min_count": 5,
+        "max_count": null,
+        "count_scope": "chorus"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "seed": 123,
+    "prompt": "ROLE\nYou are an experienced children's songwriter specialising in\nshort, engaging and age-appropriate songs for children.\n\nTASK\nCreate an original children's song using the child profile and\nrequirements provided below.\n\nThe song should have one clear central idea, natural lyrical flow,\nand memorable phrases that are enjoyable and comfortable for a\nchild to sing.\n\n\nCORE SONGWRITING PRINCIPLES\n- Build the song around one clear event, activity, discovery or simple\n  imaginative situation. Give it a small sense of progression.\n- Make the chorus and verse feel as though they belong to the same song.\n  The verse should develop or support the central idea.\n- Use concrete, familiar, age-appropriate language and natural grammar.\n- Write lines that sound natural when spoken as well as when sung.\n- Prefer short, memorable phrases with a comfortable rhythm.\n- Use rhyme, alliteration and playful sound patterns only when they fit.\n  Never change word order, grammar or meaning just to create a rhyme.\n- Repetition should make a phrase memorable, musical or meaningful.\n  Avoid repeating complete lines merely to fill space.\n- Avoid vocabulary-list writing, disconnected statements, generic filler,\n  unnecessary descriptions and unrelated events.\n- Keep the tone warm, playful, encouraging and emotionally safe.\n- Use questions, invitations or call-and-response only when they suit the\n  song's central idea; do not force an interaction into every song.\n- Never frame the child as a problem to be fixed. Do not demand perfect\n  speech, correct the child or make therapeutic claims.\n\n\nPERSONALISATION\n- Use age, interests and other profile details only when they are supplied\n  in the condition-specific information.\n- When interests are provided, select one or two that can contribute\n  naturally to the central activity, event or mini-story.\n- Show an interest through an action or role in the song rather than\n  simply naming or listing it.\n- Do not force an interest into a context where it does not make sense.\n  If a target word does not naturally fit an interest, let the target's\n  meaning guide the situation and use the interest only where appropriate.\n- Do not assume that the child owns an object, has a pet, attended an event\n  or experienced something unless the profile explicitly says so.\n- You may create a simple fictional or imaginative song situation, but do\n  not present invented details as facts about the child's real life.\n\n\nSONG LENGTH AND STRUCTURE\nReturn exactly these two sections, in this order:\n\n[Chorus]\nUsually 4-6 concise lyric lines\n\n[Verse]\nUsually 2-4 concise lyric lines\n\n- Aim for approximately 6-10 lyric lines in total.\n- Make the chorus memorable and suitable for singing again.\n- Let the verse add a small action, detail or moment that develops the\n  same central idea; do not introduce a separate story.\n- For target-word conditions, the chorus may need additional words or lines\n  to meet the required counts. Meet every target requirement with the\n  least unnecessary material; do not sacrifice naturalness for brevity.\n- Do not add a title, introduction, pre-chorus, bridge, second verse, outro,\n  stage directions, chord symbols or explanatory notes.\n- Use the exact bracketed section headings. Do not substitute \"Chorus:\"\n  or \"Verse:\".\n\n\nOUTPUT RULES\n- Output only the finished lyrics.\n- Include exactly one [Chorus] heading followed by exactly one [Verse] heading.\n- Do not include text before [Chorus] or after the final verse line.\n- Do not explain your choices or reveal internal reasoning or planning.\n- Write all lyrics in full. Never use \"repeat chorus\", ellipses or placeholders.\n\nEXPERIMENTAL CONDITION: P4 — CONTEXTUAL TARGET INTEGRATION\n\nCHILD PROFILE\nAge: 11 years and 0 months\nInterests: fire engines, discovering how things work\n\nWrite an age-appropriate, personalised song in which every target word\nbelongs naturally to the situation described by the lyrics.\n\nFor each target, use its ordinary meaning to identify a plausible child-\nfriendly event, action, object or interaction. Establish a context in which\nthe target would make sense before deciding how to repeat it. If the target\ndoes not fit the child's interests, let the target guide the situation;\nuse interests only where they genuinely complement it.\n\nThe target words should feel like meaningful parts of what is happening,\nnot vocabulary items inserted into unrelated lines. Give the chorus a\nnatural reason to revisit each target, such as a recurring event, response,\ndiscovery or refrain.\n\nMeet the minimum chorus count for every target while keeping the context\nclear, coherent and concise.\n\nTARGET-WORD INTEGRATION AND REPETITION\n- 'knew': use this exact word form at least 5 times in the [Chorus] section.\n\n- Use each target in its ordinary, intended meaning and in a grammatically\n  correct role within the lyric. Do not change its meaning to make it fit\n  a rhyme, interest or convenient phrase.\n- Preserve the exact target word form. Do not replace it with a synonym,\n  inflection or a longer word that only contains the same letters.\n- Each complete target must appear at least its specified number of times\n  in the [Chorus]. Count only complete, standalone occurrences in the\n  chorus; occurrences in the verse or partial syllables do not count.\n- Before finalising, silently check the chorus and make sure every target\n  reaches its minimum count. If a count is short, revise the lyrics.\n- There is no fixed upper limit. Do not add occurrences beyond the minimum\n  unless they contribute to a meaningful refrain, musical phrase or\n  coherent interaction.\n- Give the target a clear reason to be present in the song. If its meaning\n  does not naturally fit the child's interests, build a plausible,\n  child-friendly situation around the target instead of forcing the\n  target into an unrelated interest.\n- Do not put targets into grammatically incorrect sentences, meaningless\n  lists or lines that make no sense when read aloud.\n- Keep each target easy to hear and sing by placing it in a clear phrase.\n  Avoid hiding it in a long or confusing sentence.\n- If there are several targets, give each one meaningful attention and\n  satisfy each minimum count. Do not neglect one target in favour of another.\n- Do not sacrifice semantic accuracy, grammaticality or natural\n  children's-song writing merely to increase the count.\n\n\nREPETITION STRATEGIES\n- Use a repetition strategy that suits the particular word and song.\n  Possible strategies include a recurring refrain, a changing phrase,\n  call-and-response, a question and answer, or repetition within a small\n  narrative. These are options, not a fixed template.\n- Vary the surrounding lyric where useful, but do not vary it so much that\n  the target's meaning becomes unclear.\n\nPLAYFUL SYLLABLE OR PARTIAL-WORD REPETITION\n- You may add playful repetitions of a target's opening syllable or sound\n  sequence when this is appropriate for the word and the intended activity.\n- For example, a long target such as \"anniversary\" could be preceded by a\n  short syllabic lead-in such as \"an-ni, an-ni, anniversary\".\n- Choose fragments according to pronunciation, not spelling alone. Do not\n  invent inaccurate syllables or use a fragment that changes the word's\n  meaning.\n- This technique is optional. Do not force it into every song or target.\n- Partial syllables and approximations do NOT count toward the required\n  number of complete target-word occurrences.\n- Treat these as creative songwriting options, not clinically validated\n  speech cues. Follow RMT-provided pronunciation or cueing guidance when\n  available.",
+    "concept_or_plan": "**Context Map**\n\n1. **knew**\n\t* Ordinary meaning: to have knowledge or understanding of something\n\t* Natural action/event/interaction: discovering a new fact or concept\n\t* Connection to profile interests: fire engines and discovering how things work\n2. (No other target words are provided, so we will focus on integrating \"knew\" into a coherent situation)\n\n**Context Map Connection**\n\nLet's create a situation where a child is learning about fire engines and how they work. The child is fascinated by the different parts and mechanisms, and they're excited to share their newfound knowledge with others. The target word \"knew\" will be integrated into the situation as the child reflects on what they've learned.\n\n**Context Map Situation**\n\n* The child is at a fire station, watching a fire engine being serviced.\n* They're fascinated by the different parts and mechanisms, and they ask the firefighters questions about how they work.\n* As they learn more, they start to understand the importance of each component and how they all work together.\n* The child is excited to share their newfound knowledge with others, and they say \"I knew that was important!\" or \"I knew that's how it works!\"\n\n**Context Map Connection to Profile Interests**\n\n* The child's interest in fire engines is a natural fit for this situation, as they're learning about the different parts and mechanisms of a fire engine.\n* The child's interest in discovering how things work is also reflected in this situation, as they're learning about the inner workings of a fire engine.\n\nNow that we have a clear context map, we can move on to writing the lyrics.",
+    "initial_lyric": "[Chorus]\nI knew the engine's strong and bright\nI knew the sirens sound so loud tonight\nI knew the firefighters work as a team\nI knew the fire engine's a special machine\nI knew the parts that make it go and shine\nI knew it's helping people, all the time\n\n[Verse]\nI was at the fire station, watching them repair\nThe firefighters showed me the engine's gears and care\nI asked them questions, and they explained it well\nNow I know how it works, and I can tell",
+    "final_lyric": "[Chorus]\nI knew the engine's strong and bright\nI knew the sirens sound so loud tonight\nI knew the firefighters work as a team\nI knew the fire engine's a special machine\nI knew the parts that make it go and shine\nI knew it's helping people, all the time\n\n[Verse]\nI was at the fire station, watching them repair\nThe firefighters showed me the engine's gears and care\nI asked them questions, and they explained it well\nNow I know how it works, and I can tell",
+    "final_validation": {
+      "passed": true,
+      "issues": [],
+      "target_counts_in_chorus": {
+        "knew": {
+          "count": 6,
+          "minimum": 5
+        }
+      },
+      "line_count": 10,
+      "has_chorus": true,
+      "has_verse": true
     },
-    {
-      "word": "this",
-      "min_count": 1,
-      "max_count": null,
-      "observed_event_count": 1
-    }
-  ],
-  "condition": "P3",
-  "model": "qwen2.5:7b",
-  "seed": 456,
-  "prompt": "Write lyrics for a song intended for a child.\n\nChild age: 10 years and 0 months years\nChild interests: crafts, playing at the park\n\nThe following words must each appear at least once in the lyrics:\n\n- apart: at least 1 occurrence(s)\n- herself: at least 1 occurrence(s)\n- on: at least 1 occurrence(s)\n- this: at least 1 occurrence(s)\n\nCreate coherent, age-appropriate lyrics that naturally incorporate all required\nwords while reflecting the child's interests.\n",
-  "lyric": "**Verse 1:**\nIn the park where the sun shines bright,\nOn the swings where my heart takes flight,\nI love to craft and create,\nMixing colors like magic, oh, what a treat!\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Verse 2:**\nWith my crayons in hand, I make my mark,\nDrawing pictures, all around her part.\nCrafting with her, sharing our hearts,\nThis little girl, she’s my partner!\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Bridge:**\nAt the park, she’s herself, free and wild,\nRunning around, with her spirit full.\nOn this adventure, she’ll find her own path,\nThis girl, she’s got the world at her grasp.\n\n**Chorus:**\nPlaying with friends at this old tree,\nApart from the worries, we just have fun, you see.\nLaughing and skipping, a joy to behold,\nThis is where my smile never grows old.\n\n**Outro:**\nSo here’s to the joy of the day,\nAt the park where we play, we never stray.\nThis is our time, oh so true,\nTogether, apart, we all just grow!"
-}
+    "model_review_final": {
+      "pass": true,
+      "issues": [
+        {
+          "type": "semantic coherence",
+          "description": "The verse and chorus have different themes. The verse focuses on the speaker's experience at the fire station, while the chorus focuses on the characteristics of the fire engine. This may make the song feel disjointed."
+        }
+      ],
+      "revision_instructions": "Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes.",
+      "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on the speaker's experience at the fire station, while the chorus focuses on the characteristics of the fire engine. This may make the song feel disjointed.\"\n    }\n  ],\n  \"revision_instructions\": \"Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes.\"\n}\n```\n\nThe song has a clear and repetitive structure, with a strong focus on the target word \"knew\". The lyrics are easy to understand and follow, and the language is simple and accessible to children. The song's theme of fire engines and firefighters is likely to be of interest to young children, and the repetition of the word \"knew\" will help them remember the lyrics.\n\nHowever, as noted above, the verse and chorus have different themes, which may make the song feel disjointed. Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes."
+    },
+    "revision_attempts": 0,
+    "generation_status": "passed",
+    "validation_history": [
+      {
+        "stage": "concept_or_condition_plan",
+        "output": "**Context Map**\n\n1. **knew**\n\t* Ordinary meaning: to have knowledge or understanding of something\n\t* Natural action/event/interaction: discovering a new fact or concept\n\t* Connection to profile interests: fire engines and discovering how things work\n2. (No other target words are provided, so we will focus on integrating \"knew\" into a coherent situation)\n\n**Context Map Connection**\n\nLet's create a situation where a child is learning about fire engines and how they work. The child is fascinated by the different parts and mechanisms, and they're excited to share their newfound knowledge with others. The target word \"knew\" will be integrated into the situation as the child reflects on what they've learned.\n\n**Context Map Situation**\n\n* The child is at a fire station, watching a fire engine being serviced.\n* They're fascinated by the different parts and mechanisms, and they ask the firefighters questions about how they work.\n* As they learn more, they start to understand the importance of each component and how they all work together.\n* The child is excited to share their newfound knowledge with others, and they say \"I knew that was important!\" or \"I knew that's how it works!\"\n\n**Context Map Connection to Profile Interests**\n\n* The child's interest in fire engines is a natural fit for this situation, as they're learning about the different parts and mechanisms of a fire engine.\n* The child's interest in discovering how things work is also reflected in this situation, as they're learning about the inner workings of a fire engine.\n\nNow that we have a clear context map, we can move on to writing the lyrics."
+      },
+      {
+        "stage": "initial_lyric",
+        "output": "[Chorus]\nI knew the engine's strong and bright\nI knew the sirens sound so loud tonight\nI knew the firefighters work as a team\nI knew the fire engine's a special machine\nI knew the parts that make it go and shine\nI knew it's helping people, all the time\n\n[Verse]\nI was at the fire station, watching them repair\nThe firefighters showed me the engine's gears and care\nI asked them questions, and they explained it well\nNow I know how it works, and I can tell"
+      },
+      {
+        "stage": "python_validation_initial",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "knew": {
+              "count": 6,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_initial",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The verse and chorus have different themes. The verse focuses on the speaker's experience at the fire station, while the chorus focuses on the characteristics of the fire engine. This may make the song feel disjointed."
+            }
+          ],
+          "revision_instructions": "Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes.",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on the speaker's experience at the fire station, while the chorus focuses on the characteristics of the fire engine. This may make the song feel disjointed.\"\n    }\n  ],\n  \"revision_instructions\": \"Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes.\"\n}\n```\n\nThe song has a clear and repetitive structure, with a strong focus on the target word \"knew\". The lyrics are easy to understand and follow, and the language is simple and accessible to children. The song's theme of fire engines and firefighters is likely to be of interest to young children, and the repetition of the word \"knew\" will help them remember the lyrics.\n\nHowever, as noted above, the verse and chorus have different themes, which may make the song feel disjointed. Consider revising the verse to tie in more closely with the chorus, or adding a bridge to connect the two themes."
+        }
+      },
+      {
+        "stage": "python_validation_final",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "knew": {
+              "count": 6,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      }
+    ],
+    "elapsed_seconds": 82.03
+  },
+  {
+    "dataset": "voices_cws_chat",
+    "child_id": "09m",
+    "recording_id": "09m",
+    "condition": "P5",
+    "age": "9 years and 0 months",
+    "interests": [
+      "the ocean",
+      "magical worlds"
+    ],
+    "target_repetitions": 5,
+    "target_words": [
+      "one"
+    ],
+    "target_constraints": [
+      {
+        "word": "one",
+        "min_count": 5,
+        "max_count": null,
+        "count_scope": "chorus"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "seed": 123,
+    "prompt": "ROLE\nYou are an experienced children's songwriter specialising in\nshort, engaging and age-appropriate songs for children.\n\nTASK\nCreate an original children's song using the child profile and\nrequirements provided below.\n\nThe song should have one clear central idea, natural lyrical flow,\nand memorable phrases that are enjoyable and comfortable for a\nchild to sing.\n\n\nCORE SONGWRITING PRINCIPLES\n- Build the song around one clear event, activity, discovery or simple\n  imaginative situation. Give it a small sense of progression.\n- Make the chorus and verse feel as though they belong to the same song.\n  The verse should develop or support the central idea.\n- Use concrete, familiar, age-appropriate language and natural grammar.\n- Write lines that sound natural when spoken as well as when sung.\n- Prefer short, memorable phrases with a comfortable rhythm.\n- Use rhyme, alliteration and playful sound patterns only when they fit.\n  Never change word order, grammar or meaning just to create a rhyme.\n- Repetition should make a phrase memorable, musical or meaningful.\n  Avoid repeating complete lines merely to fill space.\n- Avoid vocabulary-list writing, disconnected statements, generic filler,\n  unnecessary descriptions and unrelated events.\n- Keep the tone warm, playful, encouraging and emotionally safe.\n- Use questions, invitations or call-and-response only when they suit the\n  song's central idea; do not force an interaction into every song.\n- Never frame the child as a problem to be fixed. Do not demand perfect\n  speech, correct the child or make therapeutic claims.\n\n\nPERSONALISATION\n- Use age, interests and other profile details only when they are supplied\n  in the condition-specific information.\n- When interests are provided, select one or two that can contribute\n  naturally to the central activity, event or mini-story.\n- Show an interest through an action or role in the song rather than\n  simply naming or listing it.\n- Do not force an interest into a context where it does not make sense.\n  If a target word does not naturally fit an interest, let the target's\n  meaning guide the situation and use the interest only where appropriate.\n- Do not assume that the child owns an object, has a pet, attended an event\n  or experienced something unless the profile explicitly says so.\n- You may create a simple fictional or imaginative song situation, but do\n  not present invented details as facts about the child's real life.\n\n\nSONG LENGTH AND STRUCTURE\nReturn exactly these two sections, in this order:\n\n[Chorus]\nUsually 4-6 concise lyric lines\n\n[Verse]\nUsually 2-4 concise lyric lines\n\n- Aim for approximately 6-10 lyric lines in total.\n- Make the chorus memorable and suitable for singing again.\n- Let the verse add a small action, detail or moment that develops the\n  same central idea; do not introduce a separate story.\n- For target-word conditions, the chorus may need additional words or lines\n  to meet the required counts. Meet every target requirement with the\n  least unnecessary material; do not sacrifice naturalness for brevity.\n- Do not add a title, introduction, pre-chorus, bridge, second verse, outro,\n  stage directions, chord symbols or explanatory notes.\n- Use the exact bracketed section headings. Do not substitute \"Chorus:\"\n  or \"Verse:\".\n\n\nOUTPUT RULES\n- Output only the finished lyrics.\n- Include exactly one [Chorus] heading followed by exactly one [Verse] heading.\n- Do not include text before [Chorus] or after the final verse line.\n- Do not explain your choices or reveal internal reasoning or planning.\n- Write all lyrics in full. Never use \"repeat chorus\", ellipses or placeholders.\n\nEXPERIMENTAL CONDITION: P5 — STRUCTURED GENERATION PLANNING\n\nCHILD PROFILE\nAge: 9 years and 0 months\nInterests: the ocean, magical worlds\n\nBefore writing, silently work through the following planning steps.\nDo not include the plan in the output.\n\n1. TARGET MEANING: Identify the ordinary meaning and grammatical use of\n   every target word. Note what kind of situation would make each word\n   meaningful and natural.\n2. CENTRAL SITUATION: Choose one simple, child-friendly event or mini-story\n   that can accommodate the target word or words without changing their\n   meanings. If a target needs a context that is not supplied in the child\n   profile, create a clearly fictional song situation rather than inventing\n   a real-life fact about the child.\n3. PERSONALISATION: Decide whether one or two of the child's interests can\n   contribute naturally to that situation. Do not force an interest into\n   the song or assume the child owns a pet or object.\n4. CHORUS DESIGN: Choose a repetition strategy suited to the target and\n   situation. Plan how every complete target will reach its minimum chorus\n   count. Use purposeful repetition rather than repeating the same line\n   mechanically. Consider a playful syllable lead-in only if it fits the\n   target's pronunciation and the song.\n5. VERSE DESIGN: Give the verse a supporting role by adding an action,\n   detail or moment that develops the same central situation.\n6. QUALITY CHECK: Check that the target words have their intended meanings,\n   every line is grammatical and connected, the interests are natural,\n   the lyrics are age-appropriate and singable, and every complete target\n   meets its chorus count. Remove filler and unnecessary repetition.\n\nThen write only the finished lyrics. Do not reveal the plan, list the steps\nor add commentary.\n\nTARGET-WORD INTEGRATION AND REPETITION\n- 'one': use this exact word form at least 5 times in the [Chorus] section.\n\n- Use each target in its ordinary, intended meaning and in a grammatically\n  correct role within the lyric. Do not change its meaning to make it fit\n  a rhyme, interest or convenient phrase.\n- Preserve the exact target word form. Do not replace it with a synonym,\n  inflection or a longer word that only contains the same letters.\n- Each complete target must appear at least its specified number of times\n  in the [Chorus]. Count only complete, standalone occurrences in the\n  chorus; occurrences in the verse or partial syllables do not count.\n- Before finalising, silently check the chorus and make sure every target\n  reaches its minimum count. If a count is short, revise the lyrics.\n- There is no fixed upper limit. Do not add occurrences beyond the minimum\n  unless they contribute to a meaningful refrain, musical phrase or\n  coherent interaction.\n- Give the target a clear reason to be present in the song. If its meaning\n  does not naturally fit the child's interests, build a plausible,\n  child-friendly situation around the target instead of forcing the\n  target into an unrelated interest.\n- Do not put targets into grammatically incorrect sentences, meaningless\n  lists or lines that make no sense when read aloud.\n- Keep each target easy to hear and sing by placing it in a clear phrase.\n  Avoid hiding it in a long or confusing sentence.\n- If there are several targets, give each one meaningful attention and\n  satisfy each minimum count. Do not neglect one target in favour of another.\n- Do not sacrifice semantic accuracy, grammaticality or natural\n  children's-song writing merely to increase the count.\n\n\nREPETITION STRATEGIES\n- Use a repetition strategy that suits the particular word and song.\n  Possible strategies include a recurring refrain, a changing phrase,\n  call-and-response, a question and answer, or repetition within a small\n  narrative. These are options, not a fixed template.\n- Vary the surrounding lyric where useful, but do not vary it so much that\n  the target's meaning becomes unclear.\n\nPLAYFUL SYLLABLE OR PARTIAL-WORD REPETITION\n- You may add playful repetitions of a target's opening syllable or sound\n  sequence when this is appropriate for the word and the intended activity.\n- For example, a long target such as \"anniversary\" could be preceded by a\n  short syllabic lead-in such as \"an-ni, an-ni, anniversary\".\n- Choose fragments according to pronunciation, not spelling alone. Do not\n  invent inaccurate syllables or use a fragment that changes the word's\n  meaning.\n- This technique is optional. Do not force it into every song or target.\n- Partial syllables and approximations do NOT count toward the required\n  number of complete target-word occurrences.\n- Treat these as creative songwriting options, not clinically validated\n  speech cues. Follow RMT-provided pronunciation or cueing guidance when\n  available.",
+    "concept_or_plan": "Here is the private songwriting plan for the song:\n\n**Target Meanings:**\n\n* \"one\" refers to a single unit or quantity, often used as a number or a singular entity.\n\n**Central Situation:**\n\n* A child is exploring a magical world, discovering new wonders and marvels. The situation is fictional and imaginative, allowing for creative freedom.\n\n**Personalisation:**\n\n* The child's interest in the ocean is incorporated by making the magical world a fantastical underwater realm. The child's imagination is sparked as they explore this new environment.\n\n**Chorus Design:**\n\n* The chorus will feature a repetitive refrain, with the target word \"one\" appearing at least 5 times. The repetition will be used to emphasize the child's discovery of new wonders and marvels in the magical world.\n* Chorus count allocation:\n\t+ \"one\" (5 occurrences)\n\t+ Additional words and lines to meet the required count (approximately 4-6 lines)\n\n**Verse Design:**\n\n* The verse will add a supporting role by describing the child's initial excitement and wonder as they enter the magical world. The verse will set the scene for the chorus.\n* Verse role: Develop the central situation, introducing the child's curiosity and sense of adventure.\n\n**Quality Check:**\n\n* Ensure that the target word \"one\" has its intended meaning and is used in a grammatically correct role.\n* Verify that the interests are natural and incorporated in a child-friendly way.\n* Check that the lyrics are age-appropriate and singable.\n* Confirm that every complete target meets its chorus count.\n\nThis plan will guide the creation of a song that meets the target requirements and incorporates the child's interests in a natural and imaginative way.",
+    "initial_lyric": "[Chorus]\nIn the ocean's magic, I see one wonder bright\nOne shimmering pearl, one star in the night\nOne wave, one shell, one secret yet unknown\nIn this magical world, one mystery is shown\nOne treasure to find, one tale to unfold\nOne dream to chase, in this enchanted hold\n\n[Verse]\nI swim through coral, into the ocean's heart\nWhere seaweed sways and fish play a gentle part\nI dive down deep, into the unknown blue\nWhere secrets wait, and magic shines through",
+    "final_lyric": "[Chorus]\nIn the ocean's magic, I see one wonder bright\nOne shimmering pearl, one star in the night\nOne wave, one shell, one secret yet unknown\nIn this magical world, one mystery is shown\nOne treasure to find, one tale to unfold\nOne dream to chase, in this enchanted hold\n\n[Verse]\nI swim through coral, into the ocean's heart\nWhere seaweed sways and fish play a gentle part\nI dive down deep, into the unknown blue\nWhere secrets wait, and magic shines through",
+    "final_validation": {
+      "passed": true,
+      "issues": [],
+      "target_counts_in_chorus": {
+        "one": {
+          "count": 10,
+          "minimum": 5
+        }
+      },
+      "line_count": 10,
+      "has_chorus": true,
+      "has_verse": true
+    },
+    "model_review_final": {
+      "pass": true,
+      "issues": [
+        {
+          "type": "semantic coherence",
+          "description": "The lyrics may benefit from a clearer connection between the verse and chorus. The verse describes a specific experience in the ocean, while the chorus focuses on the idea of 'one' wonder or mystery. A more explicit link between the two could enhance the song's narrative flow."
+        }
+      ],
+      "revision_instructions": "[\"Consider adding a bridge or additional verse to connect the verse and chorus more explicitly. This could help to create a more cohesive narrative and enhance the song's overall meaning.\"]",
+      "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics may benefit from a clearer connection between the verse and chorus. The verse describes a specific experience in the ocean, while the chorus focuses on the idea of 'one' wonder or mystery. A more explicit link between the two could enhance the song's narrative flow.\"\n    }\n  ],\n  \"revision_instructions\": [\n    \"Consider adding a bridge or additional verse to connect the verse and chorus more explicitly. This could help to create a more cohesive narrative and enhance the song's overall meaning.\"\n  ]\n}\n```\n\nI have marked the lyrics as passing, but noted an issue with semantic coherence. The lyrics are well-written and engaging, but the connection between the verse and chorus could be strengthened. The revision instructions suggest adding a bridge or additional verse to create a more cohesive narrative."
+    },
+    "revision_attempts": 0,
+    "generation_status": "passed",
+    "validation_history": [
+      {
+        "stage": "concept_or_condition_plan",
+        "output": "Here is the private songwriting plan for the song:\n\n**Target Meanings:**\n\n* \"one\" refers to a single unit or quantity, often used as a number or a singular entity.\n\n**Central Situation:**\n\n* A child is exploring a magical world, discovering new wonders and marvels. The situation is fictional and imaginative, allowing for creative freedom.\n\n**Personalisation:**\n\n* The child's interest in the ocean is incorporated by making the magical world a fantastical underwater realm. The child's imagination is sparked as they explore this new environment.\n\n**Chorus Design:**\n\n* The chorus will feature a repetitive refrain, with the target word \"one\" appearing at least 5 times. The repetition will be used to emphasize the child's discovery of new wonders and marvels in the magical world.\n* Chorus count allocation:\n\t+ \"one\" (5 occurrences)\n\t+ Additional words and lines to meet the required count (approximately 4-6 lines)\n\n**Verse Design:**\n\n* The verse will add a supporting role by describing the child's initial excitement and wonder as they enter the magical world. The verse will set the scene for the chorus.\n* Verse role: Develop the central situation, introducing the child's curiosity and sense of adventure.\n\n**Quality Check:**\n\n* Ensure that the target word \"one\" has its intended meaning and is used in a grammatically correct role.\n* Verify that the interests are natural and incorporated in a child-friendly way.\n* Check that the lyrics are age-appropriate and singable.\n* Confirm that every complete target meets its chorus count.\n\nThis plan will guide the creation of a song that meets the target requirements and incorporates the child's interests in a natural and imaginative way."
+      },
+      {
+        "stage": "initial_lyric",
+        "output": "[Chorus]\nIn the ocean's magic, I see one wonder bright\nOne shimmering pearl, one star in the night\nOne wave, one shell, one secret yet unknown\nIn this magical world, one mystery is shown\nOne treasure to find, one tale to unfold\nOne dream to chase, in this enchanted hold\n\n[Verse]\nI swim through coral, into the ocean's heart\nWhere seaweed sways and fish play a gentle part\nI dive down deep, into the unknown blue\nWhere secrets wait, and magic shines through"
+      },
+      {
+        "stage": "python_validation_initial",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "one": {
+              "count": 10,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_initial",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The lyrics may benefit from a clearer connection between the verse and chorus. The verse describes a specific experience in the ocean, while the chorus focuses on the idea of 'one' wonder or mystery. A more explicit link between the two could enhance the song's narrative flow."
+            }
+          ],
+          "revision_instructions": "[\"Consider adding a bridge or additional verse to connect the verse and chorus more explicitly. This could help to create a more cohesive narrative and enhance the song's overall meaning.\"]",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics may benefit from a clearer connection between the verse and chorus. The verse describes a specific experience in the ocean, while the chorus focuses on the idea of 'one' wonder or mystery. A more explicit link between the two could enhance the song's narrative flow.\"\n    }\n  ],\n  \"revision_instructions\": [\n    \"Consider adding a bridge or additional verse to connect the verse and chorus more explicitly. This could help to create a more cohesive narrative and enhance the song's overall meaning.\"\n  ]\n}\n```\n\nI have marked the lyrics as passing, but noted an issue with semantic coherence. The lyrics are well-written and engaging, but the connection between the verse and chorus could be strengthened. The revision instructions suggest adding a bridge or additional verse to create a more cohesive narrative."
+        }
+      },
+      {
+        "stage": "python_validation_final",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "one": {
+              "count": 10,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      }
+    ],
+    "elapsed_seconds": 83.91
+  },
+  {
+    "dataset": "voices_cws_chat",
+    "child_id": "08f",
+    "recording_id": "08f",
+    "condition": "P4",
+    "age": "8 years and 0 months",
+    "interests": [
+      "dogs",
+      "flowers"
+    ],
+    "target_repetitions": 5,
+    "target_words": [
+      "anniversary"
+    ],
+    "target_constraints": [
+      {
+        "word": "anniversary",
+        "min_count": 5,
+        "max_count": null,
+        "count_scope": "chorus"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "seed": 123,
+    "prompt": "ROLE\nYou are an experienced children's songwriter specialising in\nshort, engaging and age-appropriate songs for children.\n\nTASK\nCreate an original children's song using the child profile and\nrequirements provided below.\n\nThe song should have one clear central idea, natural lyrical flow,\nand memorable phrases that are enjoyable and comfortable for a\nchild to sing.\n\n\nCORE SONGWRITING PRINCIPLES\n- Build the song around one clear event, activity, discovery or simple\n  imaginative situation. Give it a small sense of progression.\n- Make the chorus and verse feel as though they belong to the same song.\n  The verse should develop or support the central idea.\n- Use concrete, familiar, age-appropriate language and natural grammar.\n- Write lines that sound natural when spoken as well as when sung.\n- Prefer short, memorable phrases with a comfortable rhythm.\n- Use rhyme, alliteration and playful sound patterns only when they fit.\n  Never change word order, grammar or meaning just to create a rhyme.\n- Repetition should make a phrase memorable, musical or meaningful.\n  Avoid repeating complete lines merely to fill space.\n- Avoid vocabulary-list writing, disconnected statements, generic filler,\n  unnecessary descriptions and unrelated events.\n- Keep the tone warm, playful, encouraging and emotionally safe.\n- Use questions, invitations or call-and-response only when they suit the\n  song's central idea; do not force an interaction into every song.\n- Never frame the child as a problem to be fixed. Do not demand perfect\n  speech, correct the child or make therapeutic claims.\n\n\nPERSONALISATION\n- Use age, interests and other profile details only when they are supplied\n  in the condition-specific information.\n- When interests are provided, select one or two that can contribute\n  naturally to the central activity, event or mini-story.\n- Show an interest through an action or role in the song rather than\n  simply naming or listing it.\n- Do not force an interest into a context where it does not make sense.\n  If a target word does not naturally fit an interest, let the target's\n  meaning guide the situation and use the interest only where appropriate.\n- Do not assume that the child owns an object, has a pet, attended an event\n  or experienced something unless the profile explicitly says so.\n- You may create a simple fictional or imaginative song situation, but do\n  not present invented details as facts about the child's real life.\n\n\nSONG LENGTH AND STRUCTURE\nReturn exactly these two sections, in this order:\n\n[Chorus]\nUsually 4-6 concise lyric lines\n\n[Verse]\nUsually 2-4 concise lyric lines\n\n- Aim for approximately 6-10 lyric lines in total.\n- Make the chorus memorable and suitable for singing again.\n- Let the verse add a small action, detail or moment that develops the\n  same central idea; do not introduce a separate story.\n- For target-word conditions, the chorus may need additional words or lines\n  to meet the required counts. Meet every target requirement with the\n  least unnecessary material; do not sacrifice naturalness for brevity.\n- Do not add a title, introduction, pre-chorus, bridge, second verse, outro,\n  stage directions, chord symbols or explanatory notes.\n- Use the exact bracketed section headings. Do not substitute \"Chorus:\"\n  or \"Verse:\".\n\n\nOUTPUT RULES\n- Output only the finished lyrics.\n- Include exactly one [Chorus] heading followed by exactly one [Verse] heading.\n- Do not include text before [Chorus] or after the final verse line.\n- Do not explain your choices or reveal internal reasoning or planning.\n- Write all lyrics in full. Never use \"repeat chorus\", ellipses or placeholders.\n\nEXPERIMENTAL CONDITION: P4 — CONTEXTUAL TARGET INTEGRATION\n\nCHILD PROFILE\nAge: 8 years and 0 months\nInterests: dogs, flowers\n\nWrite an age-appropriate, personalised song in which every target word\nbelongs naturally to the situation described by the lyrics.\n\nFor each target, use its ordinary meaning to identify a plausible child-\nfriendly event, action, object or interaction. Establish a context in which\nthe target would make sense before deciding how to repeat it. If the target\ndoes not fit the child's interests, let the target guide the situation;\nuse interests only where they genuinely complement it.\n\nThe target words should feel like meaningful parts of what is happening,\nnot vocabulary items inserted into unrelated lines. Give the chorus a\nnatural reason to revisit each target, such as a recurring event, response,\ndiscovery or refrain.\n\nMeet the minimum chorus count for every target while keeping the context\nclear, coherent and concise.\n\nTARGET-WORD INTEGRATION AND REPETITION\n- 'anniversary': use this exact word form at least 5 times in the [Chorus] section.\n\n- Use each target in its ordinary, intended meaning and in a grammatically\n  correct role within the lyric. Do not change its meaning to make it fit\n  a rhyme, interest or convenient phrase.\n- Preserve the exact target word form. Do not replace it with a synonym,\n  inflection or a longer word that only contains the same letters.\n- Each complete target must appear at least its specified number of times\n  in the [Chorus]. Count only complete, standalone occurrences in the\n  chorus; occurrences in the verse or partial syllables do not count.\n- Before finalising, silently check the chorus and make sure every target\n  reaches its minimum count. If a count is short, revise the lyrics.\n- There is no fixed upper limit. Do not add occurrences beyond the minimum\n  unless they contribute to a meaningful refrain, musical phrase or\n  coherent interaction.\n- Give the target a clear reason to be present in the song. If its meaning\n  does not naturally fit the child's interests, build a plausible,\n  child-friendly situation around the target instead of forcing the\n  target into an unrelated interest.\n- Do not put targets into grammatically incorrect sentences, meaningless\n  lists or lines that make no sense when read aloud.\n- Keep each target easy to hear and sing by placing it in a clear phrase.\n  Avoid hiding it in a long or confusing sentence.\n- If there are several targets, give each one meaningful attention and\n  satisfy each minimum count. Do not neglect one target in favour of another.\n- Do not sacrifice semantic accuracy, grammaticality or natural\n  children's-song writing merely to increase the count.\n\n\nREPETITION STRATEGIES\n- Use a repetition strategy that suits the particular word and song.\n  Possible strategies include a recurring refrain, a changing phrase,\n  call-and-response, a question and answer, or repetition within a small\n  narrative. These are options, not a fixed template.\n- Vary the surrounding lyric where useful, but do not vary it so much that\n  the target's meaning becomes unclear.\n\nPLAYFUL SYLLABLE OR PARTIAL-WORD REPETITION\n- You may add playful repetitions of a target's opening syllable or sound\n  sequence when this is appropriate for the word and the intended activity.\n- For example, a long target such as \"anniversary\" could be preceded by a\n  short syllabic lead-in such as \"an-ni, an-ni, anniversary\".\n- Choose fragments according to pronunciation, not spelling alone. Do not\n  invent inaccurate syllables or use a fragment that changes the word's\n  meaning.\n- This technique is optional. Do not force it into every song or target.\n- Partial syllables and approximations do NOT count toward the required\n  number of complete target-word occurrences.\n- Treat these as creative songwriting options, not clinically validated\n  speech cues. Follow RMT-provided pronunciation or cueing guidance when\n  available.",
+    "concept_or_plan": "**Context Map**\n\n1. **anniversary**\n\t* Ordinary meaning: a special day to remember a past event or relationship\n\t* Natural action/event/interaction: celebrating a special day with loved ones\n2. **dogs**\n\t* Ordinary meaning: domesticated animals often kept as pets\n\t* Natural action/event/interaction: playing with dogs in a park or backyard\n3. **flowers**\n\t* Ordinary meaning: plants that produce colorful blooms\n\t* Natural action/event/interaction: planting and tending to flowers in a garden\n\n**Connecting the Targets**\n\nThe targets can be connected in a situation where the child is celebrating a special day, such as a birthday or anniversary, and is surrounded by loved ones, including dogs, and a beautiful garden filled with flowers.\n\n**Context Map Connection**\n\n* The child is celebrating their parent's anniversary with a family gathering in a park.\n* The park has a beautiful garden filled with colorful flowers.\n* The child's dogs are playing and running around in the park, enjoying the celebration.\n* The child is excited to be surrounded by loved ones and is singing a song to commemorate the special day.\n\nThis connection allows all three targets to be integrated naturally into the situation, with the anniversary being the central theme, dogs being part of the celebration, and flowers being a part of the park's garden.",
+    "initial_lyric": "[Chorus]\nWe're celebrating today,\nAn anniversary in a special way,\nWith flowers blooming all around,\nAnd my dogs playing, happy and sound,\nHappy anniversary, it's a special day,\nWith love and friends, we'll dance and play,\nAn anniversary, a day to remember,\nWith love and laughter, our hearts will surrender.\n\n[Verse]\nIn the park, we're surrounded by green,\nFlowers swaying gently, a beautiful scene,\nMy dogs are running, tails wagging free,\nI'm so happy to be here with my family.",
+    "final_lyric": "[Chorus]\nWe're celebrating today, it's our special day\nAnniversary, anniversary, a day to remember the way\nWe love and play together, with dogs by our side\nAnniversary, anniversary, in the garden, where flowers abide\nAnniversary, anniversary, a day to share and to play\nAnniversary, anniversary, in our own special way\n\n[Verse]\nWe're in the park, with flowers blooming bright\nOur dogs are running free, with tails wagging tight\nWe're surrounded by love, and memories so dear\nCelebrating our anniversary, year after year",
+    "final_validation": {
+      "passed": true,
+      "issues": [],
+      "target_counts_in_chorus": {
+        "anniversary": {
+          "count": 8,
+          "minimum": 5
+        }
+      },
+      "line_count": 10,
+      "has_chorus": true,
+      "has_verse": true
+    },
+    "model_review_final": {
+      "pass": true,
+      "issues": [
+        {
+          "type": "semantic coherence",
+          "description": "The verse and chorus have different themes. The verse focuses on the present moment in the park, while the chorus focuses on the anniversary itself. This might make the song feel disjointed."
+        },
+        {
+          "type": "singability",
+          "description": "The repetition of 'anniversary' in the chorus is high, which might make the song feel repetitive and less engaging for young listeners."
+        }
+      ],
+      "revision_instructions": "",
+      "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on the present moment in the park, while the chorus focuses on the anniversary itself. This might make the song feel disjointed.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The repetition of 'anniversary' in the chorus is high, which might make the song feel repetitive and less engaging for young listeners.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI have flagged two issues: semantic coherence and singability. The song's themes and focus shift between the verse and chorus, which might make the song feel disjointed. Additionally, the high repetition of \"anniversary\" in the chorus might make the song feel repetitive and less engaging for young listeners. However, I have not flagged any issues with grammar, natural phrasing, age-appropriateness, or meaningful interest integration."
+    },
+    "revision_attempts": 2,
+    "generation_status": "passed",
+    "validation_history": [
+      {
+        "stage": "concept_or_condition_plan",
+        "output": "**Context Map**\n\n1. **anniversary**\n\t* Ordinary meaning: a special day to remember a past event or relationship\n\t* Natural action/event/interaction: celebrating a special day with loved ones\n2. **dogs**\n\t* Ordinary meaning: domesticated animals often kept as pets\n\t* Natural action/event/interaction: playing with dogs in a park or backyard\n3. **flowers**\n\t* Ordinary meaning: plants that produce colorful blooms\n\t* Natural action/event/interaction: planting and tending to flowers in a garden\n\n**Connecting the Targets**\n\nThe targets can be connected in a situation where the child is celebrating a special day, such as a birthday or anniversary, and is surrounded by loved ones, including dogs, and a beautiful garden filled with flowers.\n\n**Context Map Connection**\n\n* The child is celebrating their parent's anniversary with a family gathering in a park.\n* The park has a beautiful garden filled with colorful flowers.\n* The child's dogs are playing and running around in the park, enjoying the celebration.\n* The child is excited to be surrounded by loved ones and is singing a song to commemorate the special day.\n\nThis connection allows all three targets to be integrated naturally into the situation, with the anniversary being the central theme, dogs being part of the celebration, and flowers being a part of the park's garden."
+      },
+      {
+        "stage": "initial_lyric",
+        "output": "[Chorus]\nWe're celebrating today,\nAn anniversary in a special way,\nWith flowers blooming all around,\nAnd my dogs playing, happy and sound,\nHappy anniversary, it's a special day,\nWith love and friends, we'll dance and play,\nAn anniversary, a day to remember,\nWith love and laughter, our hearts will surrender.\n\n[Verse]\nIn the park, we're surrounded by green,\nFlowers swaying gently, a beautiful scene,\nMy dogs are running, tails wagging free,\nI'm so happy to be here with my family."
+      },
+      {
+        "stage": "python_validation_initial",
+        "result": {
+          "passed": false,
+          "issues": [
+            "Target 'anniversary' occurs 3 time(s) in [Chorus]; minimum is 5."
+          ],
+          "target_counts_in_chorus": {
+            "anniversary": {
+              "count": 3,
+              "minimum": 5
+            }
+          },
+          "line_count": 12,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_initial",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The verse and chorus have different themes. The verse focuses on the natural setting, while the chorus focuses on the anniversary celebration."
+            },
+            {
+              "type": "singability",
+              "description": "The chorus has a good rhythm and meter, but the verse has a slightly different rhythm and meter, which may make it harder for children to sing along."
+            }
+          ],
+          "revision_instructions": "",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on the natural setting, while the chorus focuses on the anniversary celebration.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The chorus has a good rhythm and meter, but the verse has a slightly different rhythm and meter, which may make it harder for children to sing along.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI have marked two issues: semantic coherence and singability. The verse and chorus have different themes, which may make the song feel disjointed. Additionally, the verse has a slightly different rhythm and meter than the chorus, which may make it harder for children to sing along. However, these issues do not warrant a \"pass\" of false, as the song still has a clear and meaningful message, and the repetition of the target word \"anniversary\" is sufficient."
+        }
+      },
+      {
+        "stage": "revision_1",
+        "output": "[Chorus]\nHappy anniversary, we're here to stay\nCelebrating love on a special day\nDogs are playing, flowers are bright\nWe're all together, feeling just right\nHappy anniversary, love will grow\nWe'll cherish memories, long after we go\n\n[Verse]\nIn this garden, we're planting seeds\nWatching flowers bloom, and new things proceed\nThe dogs are happy, running free and fast\nWe're making memories, that will forever last",
+        "python_validation": {
+          "passed": false,
+          "issues": [
+            "Target 'anniversary' occurs 2 time(s) in [Chorus]; minimum is 5."
+          ],
+          "target_counts_in_chorus": {
+            "anniversary": {
+              "count": 2,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_1",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The verse and chorus have different themes. The verse focuses on planting seeds and making memories, while the chorus focuses on celebrating an anniversary. This might make the song feel disjointed."
+            },
+            {
+              "type": "singability",
+              "description": "The lyrics have a good rhythm and meter, but some of the lines feel a bit long and might be hard for young children to follow."
+            }
+          ],
+          "revision_instructions": "Consider revising the verse to make it more closely tied to the theme of the anniversary, or consider breaking it up into smaller sections to make it easier to follow.",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on planting seeds and making memories, while the chorus focuses on celebrating an anniversary. This might make the song feel disjointed.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics have a good rhythm and meter, but some of the lines feel a bit long and might be hard for young children to follow.\"\n    }\n  ],\n  \"revision_instructions\": \"Consider revising the verse to make it more closely tied to the theme of the anniversary, or consider breaking it up into smaller sections to make it easier to follow.\"\n}\n```\n\nI have marked two issues with the lyrics:\n\n1. Semantic coherence: The verse and chorus have different themes, which might make the song feel disjointed.\n2. Singability: Some of the lines feel a bit long and might be hard for young children to follow.\n\nI have not marked any issues with grammar, natural phrasing, or age-appropriateness. The lyrics are generally well-written and suitable for young children. I have also not marked any issues with meaningful interest integration, as the theme of the anniversary is clearly integrated throughout the song."
+        }
+      },
+      {
+        "stage": "revision_2",
+        "output": "[Chorus]\nWe're celebrating today, it's our special day\nAnniversary, anniversary, a day to remember the way\nWe love and play together, with dogs by our side\nAnniversary, anniversary, in the garden, where flowers abide\nAnniversary, anniversary, a day to share and to play\nAnniversary, anniversary, in our own special way\n\n[Verse]\nWe're in the park, with flowers blooming bright\nOur dogs are running free, with tails wagging tight\nWe're surrounded by love, and memories so dear\nCelebrating our anniversary, year after year",
+        "python_validation": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "anniversary": {
+              "count": 8,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_2",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The verse and chorus have different themes. The verse focuses on the present moment in the park, while the chorus focuses on the anniversary itself. This might make the song feel disjointed."
+            },
+            {
+              "type": "singability",
+              "description": "The repetition of 'anniversary' in the chorus is high, which might make the song feel repetitive and less engaging for young listeners."
+            }
+          ],
+          "revision_instructions": "",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The verse and chorus have different themes. The verse focuses on the present moment in the park, while the chorus focuses on the anniversary itself. This might make the song feel disjointed.\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The repetition of 'anniversary' in the chorus is high, which might make the song feel repetitive and less engaging for young listeners.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI have flagged two issues: semantic coherence and singability. The song's themes and focus shift between the verse and chorus, which might make the song feel disjointed. Additionally, the high repetition of \"anniversary\" in the chorus might make the song feel repetitive and less engaging for young listeners. However, I have not flagged any issues with grammar, natural phrasing, age-appropriateness, or meaningful interest integration."
+        }
+      },
+      {
+        "stage": "python_validation_final",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "anniversary": {
+              "count": 8,
+              "minimum": 5
+            }
+          },
+          "line_count": 10,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      }
+    ],
+    "elapsed_seconds": 160.2
+  },
+  {
+    "dataset": "voices_cws_chat",
+    "child_id": "09f",
+    "recording_id": "09f",
+    "condition": "P5",
+    "age": "9 years and 0 months",
+    "interests": [
+      "fairy tales",
+      "magical worlds"
+    ],
+    "target_repetitions": 5,
+    "target_words": [
+      "traveled"
+    ],
+    "target_constraints": [
+      {
+        "word": "traveled",
+        "min_count": 5,
+        "max_count": null,
+        "count_scope": "chorus"
+      }
+    ],
+    "model": "llama3.1:8b",
+    "seed": 123,
+    "prompt": "ROLE\nYou are an experienced children's songwriter specialising in\nshort, engaging and age-appropriate songs for children.\n\nTASK\nCreate an original children's song using the child profile and\nrequirements provided below.\n\nThe song should have one clear central idea, natural lyrical flow,\nand memorable phrases that are enjoyable and comfortable for a\nchild to sing.\n\n\nCORE SONGWRITING PRINCIPLES\n- Build the song around one clear event, activity, discovery or simple\n  imaginative situation. Give it a small sense of progression.\n- Make the chorus and verse feel as though they belong to the same song.\n  The verse should develop or support the central idea.\n- Use concrete, familiar, age-appropriate language and natural grammar.\n- Write lines that sound natural when spoken as well as when sung.\n- Prefer short, memorable phrases with a comfortable rhythm.\n- Use rhyme, alliteration and playful sound patterns only when they fit.\n  Never change word order, grammar or meaning just to create a rhyme.\n- Repetition should make a phrase memorable, musical or meaningful.\n  Avoid repeating complete lines merely to fill space.\n- Avoid vocabulary-list writing, disconnected statements, generic filler,\n  unnecessary descriptions and unrelated events.\n- Keep the tone warm, playful, encouraging and emotionally safe.\n- Use questions, invitations or call-and-response only when they suit the\n  song's central idea; do not force an interaction into every song.\n- Never frame the child as a problem to be fixed. Do not demand perfect\n  speech, correct the child or make therapeutic claims.\n\n\nPERSONALISATION\n- Use age, interests and other profile details only when they are supplied\n  in the condition-specific information.\n- When interests are provided, select one or two that can contribute\n  naturally to the central activity, event or mini-story.\n- Show an interest through an action or role in the song rather than\n  simply naming or listing it.\n- Do not force an interest into a context where it does not make sense.\n  If a target word does not naturally fit an interest, let the target's\n  meaning guide the situation and use the interest only where appropriate.\n- Do not assume that the child owns an object, has a pet, attended an event\n  or experienced something unless the profile explicitly says so.\n- You may create a simple fictional or imaginative song situation, but do\n  not present invented details as facts about the child's real life.\n\n\nSONG LENGTH AND STRUCTURE\nReturn exactly these two sections, in this order:\n\n[Chorus]\nUsually 4-6 concise lyric lines\n\n[Verse]\nUsually 2-4 concise lyric lines\n\n- Aim for approximately 6-10 lyric lines in total.\n- Make the chorus memorable and suitable for singing again.\n- Let the verse add a small action, detail or moment that develops the\n  same central idea; do not introduce a separate story.\n- For target-word conditions, the chorus may need additional words or lines\n  to meet the required counts. Meet every target requirement with the\n  least unnecessary material; do not sacrifice naturalness for brevity.\n- Do not add a title, introduction, pre-chorus, bridge, second verse, outro,\n  stage directions, chord symbols or explanatory notes.\n- Use the exact bracketed section headings. Do not substitute \"Chorus:\"\n  or \"Verse:\".\n\n\nOUTPUT RULES\n- Output only the finished lyrics.\n- Include exactly one [Chorus] heading followed by exactly one [Verse] heading.\n- Do not include text before [Chorus] or after the final verse line.\n- Do not explain your choices or reveal internal reasoning or planning.\n- Write all lyrics in full. Never use \"repeat chorus\", ellipses or placeholders.\n\nEXPERIMENTAL CONDITION: P5 — STRUCTURED GENERATION PLANNING\n\nCHILD PROFILE\nAge: 9 years and 0 months\nInterests: fairy tales, magical worlds\n\nBefore writing, silently work through the following planning steps.\nDo not include the plan in the output.\n\n1. TARGET MEANING: Identify the ordinary meaning and grammatical use of\n   every target word. Note what kind of situation would make each word\n   meaningful and natural.\n2. CENTRAL SITUATION: Choose one simple, child-friendly event or mini-story\n   that can accommodate the target word or words without changing their\n   meanings. If a target needs a context that is not supplied in the child\n   profile, create a clearly fictional song situation rather than inventing\n   a real-life fact about the child.\n3. PERSONALISATION: Decide whether one or two of the child's interests can\n   contribute naturally to that situation. Do not force an interest into\n   the song or assume the child owns a pet or object.\n4. CHORUS DESIGN: Choose a repetition strategy suited to the target and\n   situation. Plan how every complete target will reach its minimum chorus\n   count. Use purposeful repetition rather than repeating the same line\n   mechanically. Consider a playful syllable lead-in only if it fits the\n   target's pronunciation and the song.\n5. VERSE DESIGN: Give the verse a supporting role by adding an action,\n   detail or moment that develops the same central situation.\n6. QUALITY CHECK: Check that the target words have their intended meanings,\n   every line is grammatical and connected, the interests are natural,\n   the lyrics are age-appropriate and singable, and every complete target\n   meets its chorus count. Remove filler and unnecessary repetition.\n\nThen write only the finished lyrics. Do not reveal the plan, list the steps\nor add commentary.\n\nTARGET-WORD INTEGRATION AND REPETITION\n- 'traveled': use this exact word form at least 5 times in the [Chorus] section.\n\n- Use each target in its ordinary, intended meaning and in a grammatically\n  correct role within the lyric. Do not change its meaning to make it fit\n  a rhyme, interest or convenient phrase.\n- Preserve the exact target word form. Do not replace it with a synonym,\n  inflection or a longer word that only contains the same letters.\n- Each complete target must appear at least its specified number of times\n  in the [Chorus]. Count only complete, standalone occurrences in the\n  chorus; occurrences in the verse or partial syllables do not count.\n- Before finalising, silently check the chorus and make sure every target\n  reaches its minimum count. If a count is short, revise the lyrics.\n- There is no fixed upper limit. Do not add occurrences beyond the minimum\n  unless they contribute to a meaningful refrain, musical phrase or\n  coherent interaction.\n- Give the target a clear reason to be present in the song. If its meaning\n  does not naturally fit the child's interests, build a plausible,\n  child-friendly situation around the target instead of forcing the\n  target into an unrelated interest.\n- Do not put targets into grammatically incorrect sentences, meaningless\n  lists or lines that make no sense when read aloud.\n- Keep each target easy to hear and sing by placing it in a clear phrase.\n  Avoid hiding it in a long or confusing sentence.\n- If there are several targets, give each one meaningful attention and\n  satisfy each minimum count. Do not neglect one target in favour of another.\n- Do not sacrifice semantic accuracy, grammaticality or natural\n  children's-song writing merely to increase the count.\n\n\nREPETITION STRATEGIES\n- Use a repetition strategy that suits the particular word and song.\n  Possible strategies include a recurring refrain, a changing phrase,\n  call-and-response, a question and answer, or repetition within a small\n  narrative. These are options, not a fixed template.\n- Vary the surrounding lyric where useful, but do not vary it so much that\n  the target's meaning becomes unclear.\n\nPLAYFUL SYLLABLE OR PARTIAL-WORD REPETITION\n- You may add playful repetitions of a target's opening syllable or sound\n  sequence when this is appropriate for the word and the intended activity.\n- For example, a long target such as \"anniversary\" could be preceded by a\n  short syllabic lead-in such as \"an-ni, an-ni, anniversary\".\n- Choose fragments according to pronunciation, not spelling alone. Do not\n  invent inaccurate syllables or use a fragment that changes the word's\n  meaning.\n- This technique is optional. Do not force it into every song or target.\n- Partial syllables and approximations do NOT count toward the required\n  number of complete target-word occurrences.\n- Treat these as creative songwriting options, not clinically validated\n  speech cues. Follow RMT-provided pronunciation or cueing guidance when\n  available.",
+    "concept_or_plan": "Here is the private songwriting plan for the song:\n\n**Target Meanings:**\n\n* \"traveled\": to have moved from one place to another, often for a long distance or a significant period of time.\n\n**Central Situation:**\n\n* The song will be about a child's imaginary journey to a magical world, inspired by their love of fairy tales and magical worlds.\n\n**Personalisation:**\n\n* The child's interest in fairy tales and magical worlds will be incorporated into the central situation, where they imagine themselves traveling to a fantastical realm.\n\n**Chorus Design:**\n\n* The chorus will be a repetition of the child's journey to the magical world, with a focus on the word \"traveled\".\n* The target word \"traveled\" will be used at least 5 times in the chorus, with a clear and natural repetition strategy.\n* The chorus will have a playful and imaginative tone, with a focus on the child's excitement and wonder.\n\n**Verse Design:**\n\n* The verse will add a small action or detail to the central situation, such as the child packing a bag or saying goodbye to their family.\n* The verse will develop the same central idea as the chorus, with a focus on the child's preparation and anticipation for their journey.\n\n**Quality Check:**\n\n* The target word \"traveled\" will be used in its ordinary, intended meaning and in a grammatically correct role within the lyric.\n* The interests of fairy tales and magical worlds will be incorporated naturally into the central situation.\n* The lyrics will be age-appropriate and singable, with a focus on clear and natural language.\n\n**Chorus Strategy and Count Allocation:**\n\n* The chorus will have a repetition strategy that suits the particular word and song, with a focus on a recurring refrain.\n* The target word \"traveled\" will be used at least 5 times in the chorus, with a clear and natural repetition strategy.\n\n**Verse's Role:**\n\n* The verse will add a small action or detail to the central situation, developing the same central idea as the chorus.\n* The verse will have a supporting role, adding to the imaginative and playful tone of the song.",
+    "initial_lyric": "[Chorus]\nI've traveled to a world so bright,\nWhere magic fills the air tonight,\nI've traveled far, I've traveled wide,\nIn fairy tales, my heart resides,\nI've traveled to a world of dreams,\nWhere wonder waits, and magic beams,\nI've traveled there, and now I'm free,\nIn a world of enchantment, I can be.\n\n[Verse]\nI packed a bag, and said goodbye,\nTo my family, as I took to the sky,\nI soared on eagle's wings, so high and bright,\nAnd in a flash, I reached the magical light.",
+    "final_lyric": "[Chorus]\nI've traveled to a world so bright,\nWhere magic fills the air tonight,\nI've traveled far, I've traveled wide,\nIn fairy tales, my heart resides,\nI've traveled to a world of dreams,\nWhere wonder waits, and magic beams,\nI've traveled there, and now I'm free,\nIn a world of enchantment, I can be.\n\n[Verse]\nI packed a bag, and said goodbye,\nTo my family, as I took to the sky,\nI soared on eagle's wings, so high and bright,\nAnd in a flash, I reached the magical light.",
+    "final_validation": {
+      "passed": true,
+      "issues": [],
+      "target_counts_in_chorus": {
+        "traveled": {
+          "count": 5,
+          "minimum": 5
+        }
+      },
+      "line_count": 12,
+      "has_chorus": true,
+      "has_verse": true
+    },
+    "model_review_final": {
+      "pass": true,
+      "issues": [
+        {
+          "type": "semantic coherence",
+          "description": "The lyrics may be confusing for young children, as the concept of 'traveled' is not explicitly defined. It's assumed that the child has some understanding of the idea of traveling, but it's not clear what kind of traveling is being referred to (e.g. physical, imaginative, etc.)."
+        },
+        {
+          "type": "singability",
+          "description": "The lyrics may be a bit too complex for young children to sing along to, especially the phrase 'In fairy tales, my heart resides'. The rhythm and meter may be a bit too fast-paced for young children to follow."
+        }
+      ],
+      "revision_instructions": "",
+      "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics may be confusing for young children, as the concept of 'traveled' is not explicitly defined. It's assumed that the child has some understanding of the idea of traveling, but it's not clear what kind of traveling is being referred to (e.g. physical, imaginative, etc.).\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics may be a bit too complex for young children to sing along to, especially the phrase 'In fairy tales, my heart resides'. The rhythm and meter may be a bit too fast-paced for young children to follow.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI've marked two issues: semantic coherence and singability. The lyrics may be confusing for young children due to the abstract concept of \"traveled\" and the complexity of the language used. Additionally, the lyrics may be too fast-paced for young children to sing along to. However, these issues do not warrant a \"pass\" of false, as the lyrics are still clear and meaningful."
+    },
+    "revision_attempts": 0,
+    "generation_status": "passed",
+    "validation_history": [
+      {
+        "stage": "concept_or_condition_plan",
+        "output": "Here is the private songwriting plan for the song:\n\n**Target Meanings:**\n\n* \"traveled\": to have moved from one place to another, often for a long distance or a significant period of time.\n\n**Central Situation:**\n\n* The song will be about a child's imaginary journey to a magical world, inspired by their love of fairy tales and magical worlds.\n\n**Personalisation:**\n\n* The child's interest in fairy tales and magical worlds will be incorporated into the central situation, where they imagine themselves traveling to a fantastical realm.\n\n**Chorus Design:**\n\n* The chorus will be a repetition of the child's journey to the magical world, with a focus on the word \"traveled\".\n* The target word \"traveled\" will be used at least 5 times in the chorus, with a clear and natural repetition strategy.\n* The chorus will have a playful and imaginative tone, with a focus on the child's excitement and wonder.\n\n**Verse Design:**\n\n* The verse will add a small action or detail to the central situation, such as the child packing a bag or saying goodbye to their family.\n* The verse will develop the same central idea as the chorus, with a focus on the child's preparation and anticipation for their journey.\n\n**Quality Check:**\n\n* The target word \"traveled\" will be used in its ordinary, intended meaning and in a grammatically correct role within the lyric.\n* The interests of fairy tales and magical worlds will be incorporated naturally into the central situation.\n* The lyrics will be age-appropriate and singable, with a focus on clear and natural language.\n\n**Chorus Strategy and Count Allocation:**\n\n* The chorus will have a repetition strategy that suits the particular word and song, with a focus on a recurring refrain.\n* The target word \"traveled\" will be used at least 5 times in the chorus, with a clear and natural repetition strategy.\n\n**Verse's Role:**\n\n* The verse will add a small action or detail to the central situation, developing the same central idea as the chorus.\n* The verse will have a supporting role, adding to the imaginative and playful tone of the song."
+      },
+      {
+        "stage": "initial_lyric",
+        "output": "[Chorus]\nI've traveled to a world so bright,\nWhere magic fills the air tonight,\nI've traveled far, I've traveled wide,\nIn fairy tales, my heart resides,\nI've traveled to a world of dreams,\nWhere wonder waits, and magic beams,\nI've traveled there, and now I'm free,\nIn a world of enchantment, I can be.\n\n[Verse]\nI packed a bag, and said goodbye,\nTo my family, as I took to the sky,\nI soared on eagle's wings, so high and bright,\nAnd in a flash, I reached the magical light."
+      },
+      {
+        "stage": "python_validation_initial",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "traveled": {
+              "count": 5,
+              "minimum": 5
+            }
+          },
+          "line_count": 12,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      },
+      {
+        "stage": "model_review_initial",
+        "result": {
+          "pass": true,
+          "issues": [
+            {
+              "type": "semantic coherence",
+              "description": "The lyrics may be confusing for young children, as the concept of 'traveled' is not explicitly defined. It's assumed that the child has some understanding of the idea of traveling, but it's not clear what kind of traveling is being referred to (e.g. physical, imaginative, etc.)."
+            },
+            {
+              "type": "singability",
+              "description": "The lyrics may be a bit too complex for young children to sing along to, especially the phrase 'In fairy tales, my heart resides'. The rhythm and meter may be a bit too fast-paced for young children to follow."
+            }
+          ],
+          "revision_instructions": "",
+          "raw": "Here is the review of the children's song lyrics:\n\n```\n{\n  \"pass\": true,\n  \"issues\": [\n    {\n      \"type\": \"semantic coherence\",\n      \"description\": \"The lyrics may be confusing for young children, as the concept of 'traveled' is not explicitly defined. It's assumed that the child has some understanding of the idea of traveling, but it's not clear what kind of traveling is being referred to (e.g. physical, imaginative, etc.).\"\n    },\n    {\n      \"type\": \"singability\",\n      \"description\": \"The lyrics may be a bit too complex for young children to sing along to, especially the phrase 'In fairy tales, my heart resides'. The rhythm and meter may be a bit too fast-paced for young children to follow.\"\n    }\n  ],\n  \"revision_instructions\": \"\"\n}\n```\n\nI've marked two issues: semantic coherence and singability. The lyrics may be confusing for young children due to the abstract concept of \"traveled\" and the complexity of the language used. Additionally, the lyrics may be too fast-paced for young children to sing along to. However, these issues do not warrant a \"pass\" of false, as the lyrics are still clear and meaningful."
+        }
+      },
+      {
+        "stage": "python_validation_final",
+        "result": {
+          "passed": true,
+          "issues": [],
+          "target_counts_in_chorus": {
+            "traveled": {
+              "count": 5,
+              "minimum": 5
+            }
+          },
+          "line_count": 12,
+          "has_chorus": true,
+          "has_verse": true
+        }
+      }
+    ],
+    "elapsed_seconds": 98.45
+  }
 ]
-

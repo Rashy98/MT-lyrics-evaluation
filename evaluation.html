@@ -87,6 +87,14 @@
 
                 </div>
 
+                <!-- TARGET WORD / DISFLUENCY MAPPING -->
+                <div class="target-disfluency-section">
+                    <h3>Target Words and Disfluency Types</h3>
+                    <div id="targetDisfluencies" aria-live="polite">
+                        <p class="question-help">—</p>
+                    </div>
+                </div>
+
             </section>
 
 
@@ -574,14 +582,76 @@
                     </div>
 
                 </div>
+                <!-- READINESS FOR RMT USE -->
 
+                <div class="question">
+
+                    <label>
+                        09. Readiness for RMT use
+                    </label>
+
+                    <p class="question-help">
+                        How ready are these lyrics for use by a Registered
+                        Music Therapist (RMT) in a music-therapy session
+                        with this child? Consider how much editing,
+                        rewriting or modification would be needed before
+                        the lyrics could be used.
+                    </p>
+                    <p class="question-help">
+                        1 = Substantial rewriting required;
+                        5 = Ready to use with little or no modification.
+                    </p>
+
+                    <div class="rating-scale">
+
+                        <label>
+                            <input type="radio"
+                                name="rmt_readiness"
+                                value="1"
+                                required>
+                            <span>1</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                name="rmt_readiness"
+                                value="2">
+                            <span>2</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                name="rmt_readiness"
+                                value="3">
+                            <span>3</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                name="rmt_readiness"
+                                value="4">
+                            <span>4</span>
+                        </label>
+
+                        <label>
+                            <input type="radio"
+                                name="rmt_readiness"
+                                value="5">
+                            <span>5</span>
+                        </label>
+
+                    </div>
+
+                    
+
+                </div>
 
                 <!-- OVERALL -->
 
                 <div class="question overall">
 
                     <label>
-                        9. Overall suitability
+                        10. Overall suitability
                     </label>
 
                     <p class="question-help">
@@ -631,6 +701,7 @@
                     </div>
 
                 </div>
+                
 
 
                 <!-- COMMENTS -->
@@ -678,6 +749,7 @@
 </div>
 
 
+<script src="disfluency-matching.js"></script>
 <script src="evaluation.js"></script>
 
 </body>
