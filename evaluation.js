@@ -5,7 +5,8 @@
 // ============================================================
 
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbykwu7C5pB3bbzu9-RM8L-oz0jypZIRBhr3VERjxz4BEHWvUNtT99NOht-k7QeXnKgP/exec";
+  "https://script.google.com/macros/s/AKfycbxPZfa97mVUUGnBt2je0zPmF3fcpjpZDnV3OJlRQPDEprllsy6aIZr_7u0dpaMBZ4GJ/exec";
+
 
 
 const PILOT_RESULTS_URL = "./data/pilot_results.json";
@@ -21,6 +22,7 @@ let syntheticProfiles = null;
 let syntheticProfilesError = null;
 let participantCode = "";
 let isSubmitting = false;
+let completedItemIds = new Set();
 
 document.addEventListener("DOMContentLoaded", initialiseEvaluation);
 
@@ -77,7 +79,14 @@ async function initialiseEvaluation() {
       syntheticProfilesError = error;
     }
 
-    shuffleArray(evaluationItems);
+    // Same participant code = same order every visit, so a
+    // participant can stop and return without the order changing.
+    seededShuffle(evaluationItems, participantCode);
+
+    // Find out which lyrics this participant has already submitted
+    // and continue from the first unfinished one.
+    completedItemIds = await loadCompletedItemIds();
+    currentIndex = nextUnfinishedIndex(0);
 
     attachFormHandler();
     displayItem();
@@ -584,12 +593,15 @@ async function handleFormSubmit(event) {
     // Local backup for recovery purposes.
     storeLocalSubmission(submission);
 
-    currentIndex++;
+    completedItemIds.add(submission.item_id);
+
+    currentIndex = nextUnfinishedIndex(currentIndex + 1);
 
     if (currentIndex >= evaluationItems.length) {
       finishEvaluation();
     } else {
       displayItem();
+      window.scrollTo(0, 0);
     }
 
   } catch (error) {
@@ -748,16 +760,122 @@ function finishEvaluation() {
 }
 
 // ============================================================
-// SHUFFLE
+// SEEDED SHUFFLE
 // ============================================================
 
-function shuffleArray(array) {
+// Turns the participant code into a number used to seed the shuffle.
+function hashString(text) {
+  let hash = 2166136261;
+
+  for (let i = 0; i < text.length; i++) {
+    hash ^= text.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+
+  return hash >>> 0;
+}
+
+// Small deterministic random number generator.
+function createRandom(seed) {
+  let state = seed >>> 0;
+
+  return function () {
+    state = (state + 0x6D2B79F5) >>> 0;
+
+    let t = state;
+
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function seededShuffle(array, seedText) {
+  const random = createRandom(hashString(String(seedText)));
+
   for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(random() * (i + 1));
 
     [array[i], array[j]] = [
       array[j],
       array[i]
     ];
   }
+}
+
+// ============================================================
+// PROGRESS (RESUME WHERE THE PARTICIPANT STOPPED)
+// ============================================================
+
+// Asks the Google Sheet which lyrics this participant code has
+// already submitted. Falls back to this browser's local backup if
+// the sheet cannot be reached.
+async function loadCompletedItemIds() {
+  try {
+    const url =
+      `${GOOGLE_SCRIPT_URL}?action=progress` +
+      `&participant_code=${encodeURIComponent(participantCode)}`;
+
+    const response = await fetch(url, { cache: "no-store" });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    if (
+      data &&
+      data.status === "ok" &&
+      Array.isArray(data.completed_item_ids)
+    ) {
+      return new Set(data.completed_item_ids.map(String));
+    }
+
+    throw new Error("Unexpected progress response.");
+
+  } catch (error) {
+    console.warn(
+      "Could not load progress from the sheet; using local backup.",
+      error
+    );
+
+    return loadLocalCompletedItemIds();
+  }
+}
+
+function loadLocalCompletedItemIds() {
+  const done = new Set();
+
+  try {
+    const stored = JSON.parse(
+      localStorage.getItem("lyricEvaluationSubmissionBackup") || "[]"
+    );
+
+    stored.forEach(record => {
+      if (
+        record &&
+        record.participant_code === participantCode &&
+        record.item_id
+      ) {
+        done.add(String(record.item_id));
+      }
+    });
+
+  } catch (error) {
+    console.warn("Could not read local backup:", error);
+  }
+
+  return done;
+}
+
+function nextUnfinishedIndex(startIndex) {
+  for (let i = startIndex; i < evaluationItems.length; i++) {
+    if (!completedItemIds.has(String(evaluationItems[i].id))) {
+      return i;
+    }
+  }
+
+  return evaluationItems.length;
 }
